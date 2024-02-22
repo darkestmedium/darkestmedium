@@ -3,9 +3,11 @@ body {
   background-color: #161616;
   margin: auto;
   max-width: 1200px;
-
   text-align: center;
   font-family: "IBM Plex Sans", sans-serif;
+
+  /* background-image: radial-gradient(circle at 1px 1px, white 1px, transparent 0);
+  background-size: 40px 40px; */
 }
 
 
@@ -16,23 +18,24 @@ body {
   display: inline-block; /* Ensures container only takes the space of its contents */
 }
 .s1 img {
-  width: 100%;
+  width: 800px;
   height: auto;
-  margin: -100px 0px -100px 0px
+  opacity: 0.9;
+  /* margin: -100px 0px -100px 0px */
 }
 .s1 h1 {
-  font-weight: 300;
   font-size: 64px;
+  font-weight: 300;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 1200px;
+  width: 800px;
   line-height: 1;
 }
 .s1 h3 {
-  font-weight: 600;
   font-size: 24px;
+  font-weight: 600;
   position: absolute;
   top: 10%;
   left: 0%;
@@ -46,23 +49,36 @@ body {
   right: 0%;
   transform: translate(50px, 0%);
 }
-
-.btn-resize {
+.txt-svg {
   font-size: 20px;
   font-weight: 400;
   position: absolute;
   bottom: 10%;
   right: 0%;
   transform: translate(50px, 0%);
-  padding: 0px 0px;
+  opacity: 0.85;
 }
-.btn-resize .svg-icon {
+.txt-svg .svg-icon {
   vertical-align: middle;
-  margin-top: -3px; /* Adjust as needed */
+  margin-top: -4px;
 }
-.btn-resize:focus {
-  outline: none;
+.txt-svg:hover {
+  opacity: 1.0;
 }
+
+.dot-grid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1200px;
+  height: 600px;
+  background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.25
+  ) 1px, transparent 0);
+  background-size: 40px 40px;
+  background-position: -19px -19px;
+}
+
 
 
 /* Section 2 */
