@@ -1,0 +1,233 @@
+body {
+  color: #f4f4f4; 
+  background-color: #161616;
+  margin: auto;
+  max-width: 1200px;
+
+  text-align: center;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+
+
+/* Section 1 */
+.s1 {
+  position: relative;
+  display: inline-block; /* Ensures container only takes the space of its contents */
+}
+.s1 img {
+  width: 100%;
+  height: auto;
+  margin: -100px 0px -100px 0px
+}
+.s1 h1 {
+  font-weight: 300;
+  font-size: 64px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 1200px;
+  line-height: 1;
+}
+.s1 h3 {
+  font-weight: 600;
+  font-size: 24px;
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  transform: translate(-50%, 0%);
+}
+.s1 h4 {
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  bottom: 10%;
+  right: 0%;
+  transform: translate(50px, 0%);
+}
+
+.btn-resize {
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  bottom: 10%;
+  right: 0%;
+  transform: translate(50px, 0%);
+  padding: 0px 0px;
+}
+.btn-resize .svg-icon {
+  vertical-align: middle;
+  margin-top: -3px; /* Adjust as needed */
+}
+.btn-resize:focus {
+  outline: none;
+}
+
+
+/* Section 2 */
+
+/* Section 3 */
+
+/* Section 4 */
+
+/* Section 5 */
+
+.video {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+a {
+  color: #0f62fe; /* Set the color of unvisited links */
+}
+a:visited {
+  color: #002d9c; /* Set the color of visited links */
+}
+
+
+
+
+
+
+h2, .ibm-plex sans-bold {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.resume-item, .ibm-plex sans-bold {
+  /* Add your styles for the work experience item here */
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  /* padding-bottom: 5px; */
+  /* line-height: 0.5; */
+}
+.resume-item h3, .ibm-plex sans-semibold {
+  /* Styles for the Web Developer title */
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 0.5;
+}
+.resume-item p.regular, .ibm-plex sans-regular {
+  /* Styles for the Darkest Medirning about web developum subtitle */
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 0.5;
+}
+.resume-item p.sub, .ibm-plex sans-extralight {
+  /* Styles for the date and description paragraphs */
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  line-height: 0.5;
+  /* font-size: 0.9em; */
+}
+.resume-item p.description, .ibm-plex sans-regular {
+  /* Styles for the date and description paragraphs */
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.resume-item ul, .ibm-plex sans-regular {
+  /* Styles for the date and description paragraphs */
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* line-height: 1.0; */
+  list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+/* Font */
+.ibm-plex sans-thin {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.ibm-plex sans-extralight {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.ibm-plex sans-light {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.ibm-plex sans-regular {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.ibm-plex sans-medium {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.ibm-plex sans-semibold {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.ibm-plex sans-bold {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.ibm-plex sans-thin-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+.ibm-plex sans-extralight-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+.ibm-plex sans-light-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+.ibm-plex sans-regular-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.ibm-plex sans-medium-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+.ibm-plex sans-semibold-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+.ibm-plex sans-bold-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+/* Bootstrap Overrides */
+.flex-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
