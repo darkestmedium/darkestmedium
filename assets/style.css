@@ -5,25 +5,40 @@ body {
   max-width: 1200px;
   text-align: center;
   font-family: "IBM Plex Sans", sans-serif;
-
-  /* background-image: radial-gradient(circle at 1px 1px, white 1px, transparent 0);
-  background-size: 40px 40px; */
 }
 
 
 
-/* Section 1 */
-.s1 {
+/* Common */
+.dot-grid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1200px;
+  height: 600px;
+  background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.25
+  ) 1px, transparent 0);
+  background-size: 40px 40px;
+  background-position: -19px -19px;
+}
+
+
+
+
+
+/* Section Main */
+.sM {
   position: relative;
   display: inline-block; /* Ensures container only takes the space of its contents */
 }
-.s1 img {
+.sM img {
   width: 800px;
   height: auto;
-  opacity: 0.9;
+  opacity: 0.85;
   /* margin: -100px 0px -100px 0px */
 }
-.s1 h1 {
+.sM h1 {
   font-size: 64px;
   font-weight: 300;
   position: absolute;
@@ -33,7 +48,7 @@ body {
   width: 800px;
   line-height: 1;
 }
-.s1 h3 {
+.sM h3 {
   font-size: 24px;
   font-weight: 600;
   position: absolute;
@@ -41,7 +56,7 @@ body {
   left: 0%;
   transform: translate(-50%, 0%);
 }
-.s1 h4 {
+.sM h4 {
   font-size: 20px;
   font-weight: 400;
   position: absolute;
@@ -66,30 +81,98 @@ body {
   opacity: 1.0;
 }
 
-.dot-grid {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 1200px;
-  height: 600px;
-  background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.25
-  ) 1px, transparent 0);
-  background-size: 40px 40px;
-  background-position: -19px -19px;
+
+
+
+
+/* Section Hello */
+.sH {
+  text-align: center;
+  /* border-top: 200px; */
+  margin-top: 150px;
+}
+.sH h1 {
+  font-size: 64px;
+  font-weight: 300;
+  /* margin-top: 140px; */
+  /* max-width: 80%; */
+  /* line-height: 1; */
+}
+.sH h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.sH-grid {
+  display: grid;
+  /* text-align: right; */
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 0.5fr 1fr 0.5fr;
+  gap: 40px;
+  padding: 20px;
+}
+.sH-grid > div {
+  text-align: right;
+  /* border: 1px solid gray; */
+}
+.sH-txt-svg {
+  font-size: 20px;
+  font-weight: 400;
+  /* position: absolute;
+  bottom: 10%;
+  right: 0%;
+  transform: translate(50px, 0%); */
+  opacity: 0.85;
+}
+.sH-txt-svg .svg-icon {
+  vertical-align: middle;
+  margin-top: -4px;
+}
+.sH-txt-svg:hover {
+  opacity: 1.0;
 }
 
 
 
-/* Section 2 */
 
-/* Section 3 */
+/* Section Work */
+.sW {
+  text-align: center;
+}
+.sW img {
+  width: 1200px;
+  height: auto;
+  /* opacity: 0.5; */
+  /* margin: -100px 0px -100px 0px */
+}
+.sW h1 {
+  text-align: right;
+  font-size: 64px;
+  font-weight: 300;
+  position: relative;
+  top: 0%;
+  right: 0%;
+  transform: translate(0%, 150%);
+  /* width: 800px; */
+  /* line-height: 1; */
+}
+
+
 
 /* Section 4 */
 
 /* Section Footer */
 
 
+
+
+
+/*  Utilities */
+.svg-invert {
+  filter: invert(70%);
+}
+.svg-invert:hover {
+  filter: invert(85%);
+}
 
 
 
