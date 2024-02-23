@@ -53,7 +53,7 @@ body {
   font-weight: 600;
   text-align: left;
   position: absolute;
-  top: 60px;
+  top: 40px;
   left: 100px;
   /* transform: translate(0, 0); */
 }
@@ -62,7 +62,7 @@ body {
   font-weight: 400;
   text-align: right;
   position: absolute;
-  bottom: 60px;
+  bottom: 40px;
   right: 20px;
   transform: translate(0%, 0%);
   opacity: 0.85;
@@ -96,7 +96,7 @@ body {
 .sH {
   text-align: center;
   /* border-top: 200px; */
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 .sH h1 {
   font-size: 64px;
@@ -112,7 +112,7 @@ body {
 .sH-grid {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 0.5fr 1fr 0.25fr;
+  grid-template-rows: 0.5fr 0.25fr;
   gap: 40px;
   padding: 20px;
 }
@@ -196,10 +196,10 @@ a:visited {
 
 
 
-h2, .ibm-plex sans-bold {
-  font-family: "IBM Plex Sans", sans-serif;
+h2 {
   font-weight: 700;
   font-style: normal;
+  text-align: left;
 }
 .resume-item, .ibm-plex sans-bold {
   /* Add your styles for the work experience item here */
@@ -245,6 +245,229 @@ h2, .ibm-plex sans-bold {
   /* line-height: 1.0; */
   list-style-type: none;
 }
+
+
+
+
+
+
+
+
+/* Resume */
+.sR {
+  padding: 20px;
+}
+
+.sR-txt-svg {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  /* position: absolute; */
+  /* left: 0px; */
+  /* transform: translate(0%, 0%); */
+  opacity: 0.85;
+}
+.sR-txt-svg .svg-icon {
+  vertical-align: middle;
+  margin-top: -4px;
+}
+.sR-txt-svg:hover {
+  opacity: 1.0;
+}
+
+
+
+
+/* Section Info */
+.sRI-grid {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr;
+  grid-template-rows: 1fr;
+  /* gap: 40px; */
+  /* padding-top: 0; */
+  /* padding: 20px; */
+  /* text-align: left; */
+}
+.sRI-grid > div {
+  border: 1px solid gray;
+}
+.sRI {
+  position: relative;
+  text-align: left;
+}
+.sRI h1 {
+  font-size: 64px;
+  font-weight: 300;
+  /* position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -50%); */
+  /* line-height: 1; */
+}
+
+
+
+
+/* Section Summary */
+.sRS-grid {
+  display: grid;
+  grid-template-columns: 0.1fr 2fr;
+  grid-template-rows: 1fr;
+  /* gap: 40px; */
+  /* padding-top: 0; */
+  /* padding: 20px; */
+  /* text-align: left; */
+}
+.sRS-grid > div {
+  /* border: 1px solid gray; */
+}
+.sRS {
+  /* max-width: 800px; */
+  position: relative;
+  text-align: left;
+}
+.sRS img {
+  width: 800px;
+  height: auto;
+  opacity: 0.85;
+}
+.sRS h1 {
+  font-size: 64px;
+  font-weight: 300;
+  position: absolute;
+  width: 65%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1;
+}
+.sRS h3 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+  position: absolute;
+  top: 40px;
+  left: 100px;
+}
+
+
+
+
+/* Section Experience */
+.sRE-grid {
+  display: grid;
+  grid-template-columns: 0.15fr 2fr;
+  grid-template-rows: repeat(9, .5fr);
+  gap: 40px;
+}
+.sRE-grid > div {
+  /* border: 1px solid gray; */
+}
+.sRE {
+  /* max-width: 800px; */
+  position: relative;
+  text-align: left;
+}
+.sRE img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 22px;
+}
+.sRE h1 {
+  font-size: 64px;
+  font-weight: 300;
+  position: absolute;
+  width: 65%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1;
+}
+.sRE h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 0.5;
+
+}
+.sRE p.regular {
+  font-weight: 400;
+  font-style: normal;
+  line-height: 0.5;
+}
+.sRE p.sub {
+  font-weight: 200;
+  font-style: normal;
+  line-height: 0.5;
+}
+.sRE p.description {
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/* Section Education */
+.sREd-grid {
+  display: grid;
+  grid-template-columns: 0.15fr 2fr;
+  grid-template-rows: repeat(2, .5fr);
+  gap: 40px;
+}
+.sREd-grid > div {
+  /* border: 1px solid gray; */
+}
+.sREd {
+  /* max-width: 800px; */
+  position: relative;
+  text-align: left;
+}
+.sREd img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 22px;
+}
+.sREd h1 {
+  font-size: 64px;
+  font-weight: 300;
+  position: absolute;
+  width: 65%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1;
+}
+.sREd h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 0.5;
+
+}
+.sREd p.regular {
+  font-weight: 400;
+  font-style: normal;
+  line-height: 0.5;
+}
+.sREd p.sub {
+  font-weight: 200;
+  font-style: normal;
+  line-height: 0.5;
+}
+.sREd p.description {
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
