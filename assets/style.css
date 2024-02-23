@@ -10,27 +10,28 @@ body {
 
 
 /* Common */
-.dot-grid {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 1200px;
-  height: 600px;
-  background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.25
-  ) 1px, transparent 0);
-  background-size: 40px 40px;
-  background-position: -19px -19px;
-}
+
 
 
 
 
 
 /* Section Main */
+.sM-grid {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 0.5fr;
+  grid-template-rows: 1fr;
+  gap: 40px;
+  /* padding-top: 0; */
+  padding: 20px;
+}
+.sM-grid > div {
+  text-align: center;
+  /* border: 1px solid gray; */
+}
 .sM {
   position: relative;
-  display: inline-block; /* Ensures container only takes the space of its contents */
+  /* display: inline-block; */
 }
 .sM img {
   width: 800px;
@@ -45,7 +46,9 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  max-width: 800px;
   width: 800px;
+  min-width: 400px;
   line-height: 1;
 }
 .sM h3 {
@@ -53,31 +56,34 @@ body {
   font-weight: 600;
   position: absolute;
   top: 10%;
-  left: 0%;
-  transform: translate(-50%, 0%);
+  left: 20px;
+  transform: translate(0%, 0%);
 }
-.sM h4 {
+.dot-grid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1200px;
+  height: 640px;
+  background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.25) 1px, transparent 0);
+  background-size: 40px 40px;
+  background-position: -19px -19px;
+}
+.sM-txt-svg {
   font-size: 20px;
   font-weight: 400;
   position: absolute;
   bottom: 10%;
-  right: 0%;
-  transform: translate(50px, 0%);
-}
-.txt-svg {
-  font-size: 20px;
-  font-weight: 400;
-  position: absolute;
-  bottom: 10%;
-  right: 0%;
-  transform: translate(50px, 0%);
+  right: 20px;
+  transform: translate(0%, 0%);
   opacity: 0.85;
 }
-.txt-svg .svg-icon {
+.sM-txt-svg .svg-icon {
   vertical-align: middle;
   margin-top: -4px;
 }
-.txt-svg:hover {
+.sM-txt-svg:hover {
   opacity: 1.0;
 }
 
