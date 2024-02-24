@@ -2,7 +2,9 @@ body {
   color: #f4f4f4; 
   background-color: #161616;
   margin: auto;
+  min-width: 460px;
   max-width: 1200px;
+  /* Type */
   text-align: center;
   font-family: "IBM Plex Sans", sans-serif;
 }
@@ -30,7 +32,8 @@ body {
 .sM-grid {
   display: grid;
   grid-template-columns: 1fr;
-  /* grid-template-rows: 1fr; */
+  grid-template-rows: 24px 1fr 20px;
+  /* max-height: fit-content; */
   /* gap: 40px; */
   /* padding-top: 0; */
   padding: 20px;
@@ -40,20 +43,24 @@ body {
   /* border: 1px solid gray; */
 }
 .sM {
-  height: 640px;
   position: relative;
+  min-width: 460px;
+  /* height: 640px; */
   /* display: inline-block; */
 }
 .sM img {
-  width: 800px;
+  width: 100%;
   height: auto;
   opacity: 0.85;
+  position: relative;
+  top: 50%;
+  transform: translate(0%, -50%);
 }
 .sM h1 {
-  font-size: 64px;
+  font-size: 60px;
   font-weight: 300;
   position: absolute;
-  width: 65%;
+  width: 75%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -63,22 +70,24 @@ body {
   font-size: 24px;
   font-weight: 600;
   text-align: left;
-  position: absolute;
+  /* position: absolute;
   top: 40px;
-  left: 100px;
+  left: 100px; */
   /* transform: translate(0, 0); */
 }
 .sM-txt-svg {
   font-size: 20px;
   font-weight: 400;
   text-align: right;
-  position: absolute;
-  bottom: 40px;
-  right: 20px;
+  /* position: absolute; */
+  bottom: 0%;
+  right: 0%;
   transform: translate(0%, 0%);
   opacity: 0.85;
 }
 .sM-txt-svg .svg-icon {
+  width: 18px;
+  height: 18px;
   vertical-align: middle;
   margin-top: -4px;
 }
@@ -103,13 +112,14 @@ body {
 
 /* Section Hello */
 .sH {
-  height: 640px;
+  position: relative;
   text-align: center;
+  /* height: 640px; */
   /* border-top: 200px; */
   /* margin-top: 20px; */
 }
 .sH h1 {
-  font-size: 64px;
+  font-size: 54px;
   font-weight: 300;
   /* margin-top: 140px; */
   /* max-width: 80%; */
@@ -120,7 +130,12 @@ body {
   font-weight: 600;
 }
 .sH img {
+  width: 100%;
+  height: auto;
   border-radius: 5px;
+  position: relative;
+  bottom: 0%;
+  right: 0%;
 }
 .sH-grid {
   display: grid;
@@ -137,12 +152,12 @@ body {
   font-size: 20px;
   font-weight: 400;
   position: relative;
-  /* bottom: 10%;
-  right: 0%;
-  transform: translate(50px, 0%); */
+  bottom: -60px;
   opacity: 0.85;
 }
 .sH-txt-svg .svg-icon {
+  width: 18px;
+  height: 18px;
   vertical-align: middle;
   margin-top: -4px;
 }
@@ -157,6 +172,7 @@ body {
 /* Section Contact */
 .sC {
   height: 640px;
+  min-width: 460px;
   text-align: right;
   /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
   background: linear-gradient(-45deg, #161616, #121619, #171414, #161616);
@@ -184,7 +200,7 @@ body {
 }
 .sC h1 {
   /* text-align: right; */
-  font-size: 64px;
+  font-size: 60px;
   font-weight: 300;
   /* position: relative;
   top: 0%;
@@ -193,22 +209,22 @@ body {
 }
 .sC-grid {
   display: grid;
-  grid-template-columns: 0.5fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   gap: 40px;
   padding: 20px;
   text-align: right;
 }
-.sC-grid > div {
-  /* border: 1px solid gray; */
-}
+/* .sC-grid > div {
+  border: 1px solid gray;
+} */
 .sC-txt-svg {
   font-size: 20px;
   font-weight: 400;
   position: relative;
-  bottom: -80%;
+  bottom: 0%;
   right: 0%;
-  transform: translate(0, 0);
+  transform: translate(-50px, 0);
   opacity: 0.85;
 }
 .sC-txt-svg .svg-icon {
@@ -225,6 +241,9 @@ body {
 /* Section 4 */
 
 /* Section Footer */
+.sF {
+  min-width: 460px;
+}
 
 
 
@@ -249,7 +268,7 @@ a:visited {
   padding: 20px;
 }
 .sR h1 {
-  font-size: 64px;
+  font-size: 60px;
   font-weight: 300;
   /* position: absolute;
   top: 0%;
