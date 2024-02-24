@@ -257,6 +257,40 @@ h2 {
 .sR {
   padding: 20px;
 }
+.sR h1 {
+  font-size: 64px;
+  font-weight: 300;
+  /* position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -50%); */
+  /* line-height: 1; */
+}
+.sR h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 0.5;
+}
+.sR p.regular {
+  font-weight: 400;
+  font-style: normal;
+  line-height: 0.5;
+}
+.sR p.sub {
+  font-weight: 200;
+  font-style: normal;
+  line-height: 0.5;
+}
+.sR p.description {
+  font-weight: 400;
+  font-style: normal;
+}
+.sR img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 22px;
+}
 
 .sR-txt-svg {
   font-size: 20px;
@@ -274,6 +308,12 @@ h2 {
 .sR-txt-svg:hover {
   opacity: 1.0;
 }
+.sR a {
+  color: #4589ff; /* Set the color of unvisited links */
+}
+.sR a:visited {
+  color: #0072c3; /* Set the color of visited links */
+}
 
 
 
@@ -283,10 +323,6 @@ h2 {
   display: grid;
   grid-template-columns: 0.5fr 2fr;
   grid-template-rows: 1fr;
-  /* gap: 40px; */
-  /* padding-top: 0; */
-  /* padding: 20px; */
-  /* text-align: left; */
 }
 .sRI-grid > div {
   border: 1px solid gray;
@@ -294,15 +330,6 @@ h2 {
 .sRI {
   position: relative;
   text-align: left;
-}
-.sRI h1 {
-  font-size: 64px;
-  font-weight: 300;
-  /* position: absolute;
-  top: 0%;
-  left: 0%;
-  transform: translate(-50%, -50%); */
-  /* line-height: 1; */
 }
 
 
@@ -313,41 +340,13 @@ h2 {
   display: grid;
   grid-template-columns: 0.1fr 2fr;
   grid-template-rows: 1fr;
-  /* gap: 40px; */
-  /* padding-top: 0; */
-  /* padding: 20px; */
-  /* text-align: left; */
 }
 .sRS-grid > div {
   /* border: 1px solid gray; */
 }
 .sRS {
-  /* max-width: 800px; */
   position: relative;
   text-align: left;
-}
-.sRS img {
-  width: 800px;
-  height: auto;
-  opacity: 0.85;
-}
-.sRS h1 {
-  font-size: 64px;
-  font-weight: 300;
-  position: absolute;
-  width: 65%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  line-height: 1;
-}
-.sRS h3 {
-  font-size: 24px;
-  font-weight: 600;
-  text-align: left;
-  position: absolute;
-  top: 40px;
-  left: 100px;
 }
 
 
@@ -364,46 +363,10 @@ h2 {
   /* border: 1px solid gray; */
 }
 .sRE {
-  /* max-width: 800px; */
   position: relative;
   text-align: left;
 }
-.sRE img {
-  width: 100%;
-  height: auto;
-  position: relative;
-  top: 22px;
-}
-.sRE h1 {
-  font-size: 64px;
-  font-weight: 300;
-  position: absolute;
-  width: 65%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  line-height: 1;
-}
-.sRE h3 {
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 0.5;
 
-}
-.sRE p.regular {
-  font-weight: 400;
-  font-style: normal;
-  line-height: 0.5;
-}
-.sRE p.sub {
-  font-weight: 200;
-  font-style: normal;
-  line-height: 0.5;
-}
-.sRE p.description {
-  font-weight: 400;
-  font-style: normal;
-}
 
 
 
@@ -418,46 +381,49 @@ h2 {
   /* border: 1px solid gray; */
 }
 .sREd {
-  /* max-width: 800px; */
   position: relative;
   text-align: left;
 }
-.sREd img {
-  width: 100%;
-  height: auto;
-  position: relative;
-  top: 22px;
-}
-.sREd h1 {
-  font-size: 64px;
-  font-weight: 300;
-  position: absolute;
-  width: 65%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  line-height: 1;
-}
-.sREd h3 {
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 0.5;
 
+
+
+
+/* Section Licenses & Certifications */
+.sRLC-grid {
+  display: grid;
+  grid-template-columns: 0.15fr 2fr;
+  grid-template-rows: repeat(2, .5fr);
+  gap: 40px;
 }
-.sREd p.regular {
-  font-weight: 400;
-  font-style: normal;
-  line-height: 0.5;
+.sRLC-grid > div {
+  /* border: 1px solid gray; */
 }
-.sREd p.sub {
-  font-weight: 200;
-  font-style: normal;
-  line-height: 0.5;
+.sRLC {
+  position: relative;
+  text-align: left;
 }
-.sREd p.description {
-  font-weight: 400;
-  font-style: normal;
+
+
+
+
+/* Skills */
+.sRSk-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  /* grid-template-rows: repeat(2, 1fr); */
+  gap: 40px;
+  margin-bottom: 40px;
 }
+.sRSk-grid > div {
+  /* border: 1px solid gray; */
+}
+.sRSk {
+  position: relative;
+  text-align: left;
+}
+
+
 
 
 
