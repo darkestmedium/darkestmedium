@@ -1,9 +1,11 @@
 body {
+  /* Layout */
+  margin: auto;
+  min-width: 480px;
+  max-width: 940px;
+  /* Color */
   color: #f4f4f4; 
   background-color: #161616;
-  margin: auto;
-  min-width: 460px;
-  max-width: 1200px;
   /* Type */
   text-align: center;
   font-family: "IBM Plex Sans", sans-serif;
@@ -13,6 +15,41 @@ body {
 
 
 /* Common */
+h1 {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.txt-svg {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: right;
+  opacity: 0.85;
+}
+.txt-svg:hover {
+  opacity: 1.0;
+}
+.svg-icon {
+  width: 18px;
+  height: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  color: #0f62fe; /* Set the color of unvisited links */
+}
+a:visited {
+  color: #002d9c; /* Set the color of visited links */
+}
 
 
 
@@ -29,36 +66,16 @@ body {
 
 
 /* Section Main */
-.sM-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 24px 1fr 20px;
-  /* max-height: fit-content; */
-  /* gap: 40px; */
-  /* padding-top: 0; */
-  padding: 20px;
-}
-.sM-grid > div {
-  text-align: center;
-  /* border: 1px solid gray; */
-}
 .sM {
   position: relative;
-  min-width: 460px;
-  /* height: 640px; */
-  /* display: inline-block; */
 }
 .sM img {
-  width: 100%;
-  height: auto;
   opacity: 0.85;
   position: relative;
   top: 50%;
   transform: translate(0%, -50%);
 }
 .sM h1 {
-  font-size: 60px;
-  font-weight: 300;
   position: absolute;
   width: 75%;
   top: 50%;
@@ -67,33 +84,24 @@ body {
   line-height: 1;
 }
 .sM h3 {
-  font-size: 24px;
-  font-weight: 600;
   text-align: left;
-  /* position: absolute;
-  top: 40px;
-  left: 100px; */
-  /* transform: translate(0, 0); */
 }
-.sM-txt-svg {
-  font-size: 20px;
-  font-weight: 400;
+.sM .txt-svg {
   text-align: right;
-  /* position: absolute; */
-  bottom: 0%;
-  right: 0%;
-  transform: translate(0%, 0%);
-  opacity: 0.85;
 }
-.sM-txt-svg .svg-icon {
-  width: 18px;
-  height: 18px;
+.sM .svg-icon {
   vertical-align: middle;
   margin-top: -4px;
 }
-.sM-txt-svg:hover {
-  opacity: 1.0;
-  /* color: #0f62fe; */
+.sM-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 24px 1fr 20px;
+  padding: 20px;
+}
+.sM-grid > div {
+  text-align: center;
+  /* border: 1px solid gray; */
 }
 .dot-grid {
   position: absolute;
@@ -113,29 +121,21 @@ body {
 /* Section Hello */
 .sH {
   position: relative;
-  text-align: center;
-  /* height: 640px; */
-  /* border-top: 200px; */
-  /* margin-top: 20px; */
 }
 .sH h1 {
   font-size: 54px;
-  font-weight: 300;
-  /* margin-top: 140px; */
-  /* max-width: 80%; */
-  /* line-height: 1; */
-}
-.sH h3 {
-  font-size: 24px;
-  font-weight: 600;
 }
 .sH img {
-  width: 100%;
-  height: auto;
   border-radius: 5px;
-  position: relative;
-  bottom: 0%;
-  right: 0%;
+}
+.sH .txt-svg {
+  text-align: right;
+}
+.sH .svg-icon {
+  width: 22px;
+  height: auto;
+  vertical-align: middle;
+  /* margin-top: -2px; */
 }
 .sH-grid {
   display: grid;
@@ -143,44 +143,16 @@ body {
   grid-template-rows: 0.5fr 0.25fr;
   gap: 40px;
   padding: 20px;
-}
-.sH-grid > div {
   text-align: right;
-  /* border: 1px solid gray; */
 }
-.sH-txt-svg {
-  font-size: 20px;
-  font-weight: 400;
-  position: relative;
-  bottom: -60px;
-  opacity: 0.85;
-}
-.sH-txt-svg .svg-icon {
-  width: 18px;
-  height: 18px;
-  vertical-align: middle;
-  margin-top: -4px;
-}
-.sH-txt-svg:hover {
-  opacity: 1.0;
-  /* color: #0f62fe; */
-}
+/* .sH-grid > div {
+  border: 1px solid gray;
+} */
 
 
 
 
 /* Section Contact */
-.sC {
-  height: 640px;
-  min-width: 460px;
-  text-align: right;
-  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
-  background: linear-gradient(-45deg, #161616, #121619, #171414, #161616);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	/* height: 100vh; */
-  /* opacity: 0.5; */
-}
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -192,58 +164,45 @@ body {
 		background-position: 0% 50%;
 	}
 }
-.sC img {
-  width: 1200px;
-  height: auto;
+.sC {
+  /* height: 640px; */
+  text-align: right;
+  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+  background: linear-gradient(-45deg, #21272a, #262626, #272525, #262626);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	/* height: 100vh; */
   /* opacity: 0.5; */
-  /* margin: -100px 0px -100px 0px */
 }
-.sC h1 {
-  /* text-align: right; */
-  font-size: 60px;
-  font-weight: 300;
-  /* position: relative;
-  top: 0%;
-  right: 0%;
-  transform: translate(0%, 150%); */
+.sC .txt-svg {
+  text-align: center;
+  position: relative;
+  top: 50%;
+}
+.sC .svg-icon {
+  width: 24px;
+  height: auto;
+  vertical-align: middle;
+  /* margin-top: -4px; */
 }
 .sC-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   gap: 40px;
   padding: 20px;
-  text-align: right;
+  /* text-align: right; */
 }
 /* .sC-grid > div {
   border: 1px solid gray;
 } */
-.sC-txt-svg {
-  font-size: 20px;
-  font-weight: 400;
-  position: relative;
-  bottom: 0%;
-  right: 0%;
-  transform: translate(-50px, 0);
-  opacity: 0.85;
-}
-.sC-txt-svg .svg-icon {
-  vertical-align: top;
-  margin-top: -8px;
-}
-.sC-txt-svg:hover {
-  opacity: 1.0;
-  /* color: #0f62fe; */
-}
+
 
 
 
 /* Section 4 */
 
 /* Section Footer */
-.sF {
-  min-width: 460px;
-}
 
 
 
@@ -253,12 +212,8 @@ body {
 
 
 
-a {
-  color: #0f62fe; /* Set the color of unvisited links */
-}
-a:visited {
-  color: #002d9c; /* Set the color of visited links */
-}
+
+
 
 
 
