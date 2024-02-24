@@ -68,6 +68,7 @@ a:visited {
 /* Section Main */
 .sM {
   position: relative;
+  margin-bottom: 10px;
 }
 .sM img {
   opacity: 0.85;
@@ -121,6 +122,7 @@ a:visited {
 /* Section Hello */
 .sH {
   position: relative;
+  /* margin-bottom: 20px; */
 }
 .sH h1 {
   font-size: 54px;
@@ -154,24 +156,24 @@ a:visited {
 
 /* Section Contact */
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 .sC {
   /* height: 640px; */
   text-align: right;
   /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
-  background: linear-gradient(-45deg, #21272a, #262626, #272525, #262626);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	/* height: 100vh; */
+  background: linear-gradient(-45deg, #272525, #262626, #161616, #21272a);
+  background-size: 400% 500%;
+  animation: gradient 15s ease infinite;
+  margin-top: 20px;
   /* opacity: 0.5; */
 }
 .sC .txt-svg {
@@ -183,12 +185,12 @@ a:visited {
   width: 24px;
   height: auto;
   vertical-align: middle;
-  /* margin-top: -4px; */
+  margin-top: -1px;
 }
 .sC-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
   gap: 40px;
   padding: 20px;
   /* text-align: right; */
@@ -221,20 +223,12 @@ a:visited {
 /* Resume */
 .sR {
   padding: 20px;
-}
-.sR h1 {
-  font-size: 60px;
-  font-weight: 300;
-  /* position: absolute;
-  top: 0%;
-  left: 0%;
-  transform: translate(-50%, -50%); */
-  /* line-height: 1; */
+  /* line-height: 1.0; */
 }
 .sR h3 {
   font-size: 24px;
   font-weight: 600;
-  line-height: 0.5;
+  /* line-height: 1.0; */
 }
 .sR p.regular {
   font-weight: 400;
@@ -251,28 +245,15 @@ a:visited {
   font-style: normal;
 }
 .sR img {
-  width: 100%;
-  height: auto;
   position: relative;
-  top: 22px;
+  top: 32px;
   border-radius: 10%;
 }
-
-.sR-txt-svg {
-  font-size: 20px;
-  font-weight: 400;
+.sR .txt-svg {
   text-align: left;
-  /* position: absolute; */
-  /* left: 0px; */
-  /* transform: translate(0%, 0%); */
-  opacity: 0.85;
 }
-.sR-txt-svg .svg-icon {
-  vertical-align: middle;
-  margin-top: -8px;
-}
-.sR-txt-svg:hover {
-  opacity: 1.0;
+.sR .svg-icon {
+  margin-bottom: -2px;
 }
 .sR a {
   color: #4589ff; /* Set the color of unvisited links */
@@ -300,7 +281,7 @@ a:visited {
 /* Section Summary */
 .sRS-grid {
   display: grid;
-  grid-template-columns: 0.15fr 2fr;
+  grid-template-columns: 64px 2fr;
   grid-template-rows: 1fr;
   gap: 20px;
 }
@@ -316,7 +297,7 @@ a:visited {
 /* Section Experience */
 .sRE-grid {
   display: grid;
-  grid-template-columns: 0.15fr 2fr;
+  grid-template-columns: 64px 2fr;
   grid-template-rows: repeat(9, .5fr);
   gap: 20px;
 }
@@ -332,7 +313,7 @@ a:visited {
 /* Section Education */
 .sREd-grid {
   display: grid;
-  grid-template-columns: 0.15fr 2fr;
+  grid-template-columns: 64px 2fr;
   grid-template-rows: repeat(2, .5fr);
   gap: 20px;
 }
@@ -348,7 +329,7 @@ a:visited {
 /* Section Licenses & Certifications */
 .sRLC-grid {
   display: grid;
-  grid-template-columns: 0.15fr 2fr;
+  grid-template-columns: 64px 2fr;
   grid-template-rows: repeat(2, .5fr);
   gap: 20px;
 }
