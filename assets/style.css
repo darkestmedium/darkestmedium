@@ -196,61 +196,6 @@ a:visited {
 
 
 
-h2 {
-  font-weight: 700;
-  font-style: normal;
-  text-align: left;
-}
-.resume-item, .ibm-plex sans-bold {
-  /* Add your styles for the work experience item here */
-  font-family: "IBM Plex Sans", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  /* padding-bottom: 5px; */
-  /* line-height: 0.5; */
-}
-.resume-item h3, .ibm-plex sans-semibold {
-  /* Styles for the Web Developer title */
-  font-family: "IBM Plex Sans", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  line-height: 0.5;
-}
-.resume-item p.regular, .ibm-plex sans-regular {
-  /* Styles for the Darkest Medirning about web developum subtitle */
-  font-family: "IBM Plex Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 0.5;
-}
-.resume-item p.sub, .ibm-plex sans-extralight {
-  /* Styles for the date and description paragraphs */
-  font-family: "IBM Plex Sans", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  line-height: 0.5;
-  /* font-size: 0.9em; */
-}
-.resume-item p.description, .ibm-plex sans-regular {
-  /* Styles for the date and description paragraphs */
-  font-family: "IBM Plex Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.resume-item ul, .ibm-plex sans-regular {
-  /* Styles for the date and description paragraphs */
-  font-family: "IBM Plex Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  /* line-height: 1.0; */
-  list-style-type: none;
-}
-
-
-
-
-
-
 
 
 /* Resume */
@@ -290,6 +235,7 @@ h2 {
   height: auto;
   position: relative;
   top: 22px;
+  border-radius: 10%;
 }
 
 .sR-txt-svg {
@@ -341,9 +287,9 @@ h2 {
   grid-template-columns: 0.1fr 2fr;
   grid-template-rows: 1fr;
 }
-.sRS-grid > div {
-  /* border: 1px solid gray; */
-}
+/* .sRS-grid > div {
+  border: 1px solid gray;
+} */
 .sRS {
   position: relative;
   text-align: left;
@@ -359,9 +305,9 @@ h2 {
   grid-template-rows: repeat(9, .5fr);
   gap: 40px;
 }
-.sRE-grid > div {
-  /* border: 1px solid gray; */
-}
+/* .sRE-grid > div {
+  border: 1px solid gray;
+} */
 .sRE {
   position: relative;
   text-align: left;
@@ -395,9 +341,9 @@ h2 {
   grid-template-rows: repeat(2, .5fr);
   gap: 40px;
 }
-.sRLC-grid > div {
-  /* border: 1px solid gray; */
-}
+/* .sRLC-grid > div {
+  border: 1px solid gray;
+} */
 .sRLC {
   position: relative;
   text-align: left;
@@ -415,9 +361,9 @@ h2 {
   gap: 40px;
   margin-bottom: 40px;
 }
-.sRSk-grid > div {
-  /* border: 1px solid gray; */
-}
+/* .sRSk-grid > div {
+  border: 1px solid gray;
+} */
 .sRSk {
   position: relative;
   text-align: left;
