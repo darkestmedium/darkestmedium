@@ -9,9 +9,19 @@ body {
 
 
 
+
 /* Common */
 
 
+
+
+/*  Utilities */
+.svg-invert {
+  filter: invert(70%);
+}
+.svg-invert:hover {
+  filter: invert(85%);
+}
 
 
 
@@ -30,6 +40,7 @@ body {
   /* border: 1px solid gray; */
 }
 .sM {
+  height: 640px;
   position: relative;
   /* display: inline-block; */
 }
@@ -90,10 +101,9 @@ body {
 
 
 
-
-
 /* Section Hello */
 .sH {
+  height: 640px;
   text-align: center;
   /* border-top: 200px; */
   /* margin-top: 20px; */
@@ -123,12 +133,11 @@ body {
   text-align: right;
   /* border: 1px solid gray; */
 }
-
 .sH-txt-svg {
   font-size: 20px;
   font-weight: 400;
-  /* position: absolute;
-  bottom: 10%;
+  position: relative;
+  /* bottom: 10%;
   right: 0%;
   transform: translate(50px, 0%); */
   opacity: 0.85;
@@ -145,26 +154,70 @@ body {
 
 
 
-/* Section Work */
-.sW {
-  text-align: center;
+/* Section Contact */
+.sC {
+  height: 640px;
+  text-align: right;
+  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+  background: linear-gradient(-45deg, #161616, #121619, #171414, #161616);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	/* height: 100vh; */
+  /* opacity: 0.5; */
 }
-.sW img {
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.sC img {
   width: 1200px;
   height: auto;
   /* opacity: 0.5; */
   /* margin: -100px 0px -100px 0px */
 }
-.sW h1 {
-  text-align: right;
+.sC h1 {
+  /* text-align: right; */
   font-size: 64px;
   font-weight: 300;
-  position: relative;
+  /* position: relative;
   top: 0%;
   right: 0%;
-  transform: translate(0%, 150%);
-  /* width: 800px; */
-  /* line-height: 1; */
+  transform: translate(0%, 150%); */
+}
+.sC-grid {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 40px;
+  padding: 20px;
+  text-align: right;
+}
+.sC-grid > div {
+  /* border: 1px solid gray; */
+}
+.sC-txt-svg {
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  bottom: -80%;
+  right: 0%;
+  transform: translate(0, 0);
+  opacity: 0.85;
+}
+.sC-txt-svg .svg-icon {
+  vertical-align: top;
+  margin-top: -8px;
+}
+.sC-txt-svg:hover {
+  opacity: 1.0;
+  /* color: #0f62fe; */
 }
 
 
@@ -177,13 +230,7 @@ body {
 
 
 
-/*  Utilities */
-.svg-invert {
-  filter: invert(70%);
-}
-.svg-invert:hover {
-  filter: invert(85%);
-}
+
 
 
 
@@ -193,10 +240,6 @@ a {
 a:visited {
   color: #002d9c; /* Set the color of visited links */
 }
-
-
-
-
 
 
 
@@ -252,7 +295,7 @@ a:visited {
 }
 .sR-txt-svg .svg-icon {
   vertical-align: middle;
-  margin-top: -4px;
+  margin-top: -8px;
 }
 .sR-txt-svg:hover {
   opacity: 1.0;
