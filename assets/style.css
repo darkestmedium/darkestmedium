@@ -225,15 +225,18 @@ a:visited {
   padding: 20px;
   /* line-height: 1.0; */
 }
+h2 {
+  font-size: 24px;
+  font-weight: 300;
+}
 .sR h3 {
   font-size: 24px;
   font-weight: 600;
-  /* line-height: 1.0; */
 }
 .sR p.regular {
   font-weight: 400;
   font-style: normal;
-  line-height: 0.5;
+  /* line-height: 1.5; */
 }
 .sR p.sub {
   font-weight: 200;
@@ -246,7 +249,7 @@ a:visited {
 }
 .sR img {
   position: relative;
-  top: 32px;
+  top: 30px;
   border-radius: 10%;
 }
 .sR .txt-svg {
@@ -255,6 +258,9 @@ a:visited {
 .sR .svg-icon {
   margin-bottom: -2px;
 }
+
+
+
 .sR a {
   color: #4589ff; /* Set the color of unvisited links */
 }
@@ -279,6 +285,11 @@ a:visited {
 
 
 /* Section Summary */
+.sRS {
+  position: relative;
+  text-align: left;
+  margin-top: 20px;
+}
 .sRS-grid {
   display: grid;
   grid-template-columns: 64px 2fr;
@@ -288,17 +299,14 @@ a:visited {
 /* .sRS-grid > div {
   border: 1px solid gray;
 } */
-.sRS {
-  position: relative;
-  text-align: left;
-}
+
 
 
 /* Section Experience */
 .sRE-grid {
   display: grid;
   grid-template-columns: 64px 2fr;
-  grid-template-rows: repeat(9, .5fr);
+  grid-template-rows: repeat(9, 0.5fr);
   gap: 20px;
 }
 /* .sRE-grid > div {
@@ -314,7 +322,7 @@ a:visited {
 .sREd-grid {
   display: grid;
   grid-template-columns: 64px 2fr;
-  grid-template-rows: repeat(2, .5fr);
+  grid-template-rows: repeat(2, 0.5fr);
   gap: 20px;
 }
 /* .sREd-grid > div {
@@ -343,20 +351,47 @@ a:visited {
 
 
 /* Skills */
+.sRSk {
+  position: relative;
+  text-align: left;
+  /* margin-top: 20px; */
+}
 .sRSk-grid {
+  text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  /* grid-template-rows: repeat(2, 1fr); */
+
   gap: 40px;
   margin-bottom: 40px;
+}
+/* Media query for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+  .sRSk-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for screens smaller than 600px */
+  }
 }
 /* .sRSk-grid > div {
   border: 1px solid gray;
 } */
-.sRSk {
-  position: relative;
+.sRSkIt-grid {
   text-align: left;
+  display: grid;
+  grid-template-columns: 32px 2fr;
+  grid-template-rows: 1fr;
+  gap: 10px;
+}
+/* .sRSkIt-grid > div {
+  border: 1px solid gray;
+} */
+.sRSkIt-grid .svg-invert {
+  width: 100%;
+  height: auto;
+  filter: invert(70%);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
