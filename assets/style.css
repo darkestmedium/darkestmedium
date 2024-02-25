@@ -68,7 +68,12 @@ a:visited {
 /* Section Main */
 .sM {
   position: relative;
-  margin-bottom: 10px;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.25) 1px, transparent 0);
+  background-size: 4% 5%;
+  /* background-size: 40px 40px; */
+  background-position: -2% -2.5%;
 }
 .sM img {
   opacity: 0.85;
@@ -97,7 +102,7 @@ a:visited {
 .sM-grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 24px 1fr 20px;
+  grid-template-rows: 30px 1fr 30px;
   padding: 20px;
 }
 .sM-grid > div {
@@ -199,22 +204,7 @@ a:visited {
 
 
 
-
-/* Section 4 */
-
 /* Section Footer */
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -286,7 +276,6 @@ h2 {
 .sRS {
   position: relative;
   text-align: left;
-  margin-top: 20px;
 }
 .sRS-grid {
   display: grid;
@@ -313,6 +302,7 @@ h2 {
 .sRE {
   position: relative;
   text-align: left;
+  margin-top: 20px;
 }
 
 
