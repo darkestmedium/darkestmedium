@@ -1,4 +1,4 @@
-body {
+body, html {
   /* Layout */
   margin: auto;
   min-width: 480px;
@@ -233,7 +233,7 @@ h2 {
   border-radius: 10%;
 }
 .sR .btn-svg {
-  color: #f4f4f4; 
+  color: #f4f4f4;
   text-align: left;
 }
 .sR .btn-svg-icon {
@@ -263,6 +263,7 @@ h2 {
 .sRI {
   position: relative;
   text-align: left;
+  margin-top: 40px;
 }
 
 
