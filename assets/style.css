@@ -55,6 +55,12 @@ a:visited {
   width: 20px;
   height: auto;
 }
+.divider {
+  width: 20px;
+  height: 20px;
+  /* color: red;
+  border: 1px solid gray; */
+}
 
 
 
@@ -229,7 +235,7 @@ h2 {
 }
 .sR img {
   position: relative;
-  top: 30px;
+  top: 5px;
   border-radius: 10%;
 }
 .sR .btn-svg {
@@ -264,8 +270,6 @@ h2 {
 .sRI {
   position: relative;
   text-align: left;
-  /* margin-top: 40px; */
-  margin-top: 20px;
 }
 
 
@@ -299,7 +303,7 @@ h2 {
 .sRE {
   position: relative;
   text-align: left;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 
@@ -378,19 +382,6 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
