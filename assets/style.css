@@ -255,8 +255,8 @@ h2 {
 /* Section Info */
 .sRI-grid {
   display: grid;
-  grid-template-columns: 0.5fr 2fr;
-  grid-template-rows: 1fr;
+  /* grid-template-columns: 2fr 1fr; */
+  grid-template-rows: 1fr 1fr;
 }
 /* .sRI-grid > div {
   border: 1px solid gray;
@@ -265,6 +265,7 @@ h2 {
   position: relative;
   text-align: left;
   /* margin-top: 40px; */
+  margin-top: 20px;
 }
 
 

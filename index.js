@@ -3,16 +3,44 @@
 $("#learn-more").click(function() {
   window.scrollTo({top: window.scrollY = 758, behavior: 'smooth'});
 });
-// document.getElementById("learn-more").addEventListener("click", function() {window.scrollTo({top: window.scrollY = 1000, behavior: 'smooth'});});
 
 // Resume Button
 $("#resume").click(function() {
-  window.location.href = "./public/resume.html";
+  
+  $("#page-main").hide(100);
+  $("#page-resume").show(100);
+  window.scrollTo({top: window.scrollY = 0, behavior: 'smooth'});
+
 });
-// document.getElementById("resume").addEventListener("click", function() {window.location.href = "./public/resume.html";});
+
+// Back to main
+$("#back-to-main").click(function() {
+
+  $("#page-main").show(100);
+  $("#page-resume").hide(100);
+  window.scrollTo({top: window.scrollY = 758, behavior: 'smooth'});
+  
+});
+
+// // Resume Button
+// $("#resume").click(function() {
+//   // window.location.href = "./public/resume.html";
+//   $("#page-main").hide();
+//   $("#page-resume").show();
+// });
+
+// // Back to main
+// $("#back").click(function() {
+//   // window.location.href = "../index.html";
+//   $("#page-main").show();
+//   $("#page-resume").hide();
+// });
+
 
 // Contact Me Button
 $("#contactme").click(function() {
   window.location.href = "mailto:darkestmedium@pm.me";
 });
-// document.getElementById("contactme").addEventListener("click", function() {window.location.href = "mailto:darkestmedium@pm.me";});
+
+
+
