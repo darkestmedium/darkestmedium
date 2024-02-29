@@ -6,7 +6,6 @@ $("#learn-more").click(function() {
 
 // Resume Button
 $("#resume").click(function() {
-  
   $("#page-main").hide(100);
   $("#page-resume").show(100);
   window.scrollTo({top: window.scrollY = 0, behavior: 'smooth'});
@@ -15,7 +14,6 @@ $("#resume").click(function() {
 
 // Back to main
 $("#back-to-main").click(function() {
-
   $("#page-main").show(100);
   $("#page-resume").hide(100);
   window.scrollTo({top: window.scrollY = 758, behavior: 'smooth'});
