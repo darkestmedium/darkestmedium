@@ -22,21 +22,6 @@ $("#back-to-main").click(function() {
   
 });
 
-// // Resume Button
-// $("#resume").click(function() {
-//   // window.location.href = "./public/resume.html";
-//   $("#page-main").hide();
-//   $("#page-resume").show();
-// });
-
-// // Back to main
-// $("#back").click(function() {
-//   // window.location.href = "../index.html";
-//   $("#page-main").show();
-//   $("#page-resume").hide();
-// });
-
-
 // Contact Me Button
 $("#contactme").click(function() {
   window.location.href = "mailto:darkestmedium@pm.me";

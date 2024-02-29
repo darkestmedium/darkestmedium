@@ -1,11 +1,13 @@
+@import url('color.css');
+
 body, html {
   /* Layout */
   margin: auto;
   min-width: 480px;
   max-width: 920px;
   /* Color */
-  color: #f4f4f4; 
-  background-color: #161616;
+  color: var(--grey10); 
+  background-color: var(--grey100);
   /* Type */
   text-align: center;
   font-family: "IBM Plex Sans", sans-serif;
@@ -31,10 +33,10 @@ img {
 }
 
 a {
-  color: #0f62fe; /* Set the color of unvisited links */
+  color: var(--blue60); /* Set the color of unvisited links */
 }
 a:visited {
-  color: #002d9c; /* Set the color of visited links */
+  color: var(--blue80); /* Set the color of visited links */
 }
 
 .btn-svg {
@@ -248,14 +250,6 @@ h2 {
   margin-bottom: 4px;
 }
 
-
-
-.sR a {
-  color: #4589ff; /* Set the color of unvisited links */
-}
-.sR a:visited {
-  color: #0072c3; /* Set the color of visited links */
-}
 
 
 /* Section Info */
