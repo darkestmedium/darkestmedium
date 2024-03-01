@@ -11,43 +11,58 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
   <!-- Bootstrap -->
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
-
-  <link rel="stylesheet" href="../assets/style.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="./styles/main.css"/>
 </head>
 
 <body>
-  <section class="sR">
+
+  <section class="root">
+
     <!-- Section Info -->
     <section class="sRI">
-      <button class="btn-svg" type="button" id="back">
-        <svg class="btn-svg-icon" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+      <button type="button" id="btn-back-to-main">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
         </svg>
         BACK TO MAIN
       </button>
+      <div class="divider"></div>
+      <div class="divider"></div>
       <h1>Lukasz Biernat</h1>
+      <div class="sRI-grid">
+        <div>darkestmedium@pm.me</div>
+        <div>+48 781 444 202</div>
+        <div>
+          <a href="https://github.com/darkestmedium">github.com/darkestmedium</a></div>
+        <div>
+          <a href="https://darkestmedium.github.io/darkestmedium/">darkestmedium.github.io/darkestmedium/</a>
+        </div>
+      </div>
+      
     </section>
 
     <!-- Section Summary -->
     <section>
       <div class="sRS">
         <!-- <hr> -->
+        
         <h2>SUMMARY</h2>
+        <div class="divider"></div>
         <div class="sRS-grid">
           <div></div>
           <div>
-            <p>Experienced Technical Animator Director with a proven track record in Commercials, Films, and Games.
+            <p>Experienced Technical Animation Director with a proven track record in Commercials, Films, and Games.
               Skilled in Maya, Python, and C++. Responsible for pipeline optimization, improvement of in-house tools, and workflow automation.
               I am resourceful, highly motivated, and in constant search of new challenges to grow my skills.
               I've spent my entire career jumping into projects in the 11th hour to fight fires and solve impossible problems.
               Now super excited about web development!
             </p>
           </div>
-          <!-- <div></div> -->
         </div>
       </div>
     </section>
@@ -55,13 +70,13 @@
     <!-- Section Experience -->
     <section>
       <div class="sRE">
-        <!-- <hr> -->
+        <div class="divider"></div>
         <h2>EXPERIENCE</h2>
-        <!-- <h2>Experience</h2> -->
+        <div class="divider"></div>
         <div class="sRE-grid">
           <!-- Darkest -->
           <div>
-            <img src="../assets/images/studio-logo/dm.png" width="399px" height="auto">
+            <img src="./assets/images/studio-logo/dm.png" width="399px" height="auto">
           </div>
           <div>
             <h3>Web Developer</h3>
@@ -72,7 +87,7 @@
           </div>
           <!-- Bambaa -->
           <div>
-            <img src="../assets/images/studio-logo/bambaa.png" width="399px" height="auto">
+            <img src="./assets/images/studio-logo/bambaa.png" width="399px" height="auto">
           </div>
           <div>
             <h3>Technical Animation Director</h3>
@@ -91,7 +106,7 @@
           </div>
           <!-- Blur Studio -->
           <div>
-            <img src="../assets/images/studio-logo/blur.png" width="399px" height="auto">
+            <img src="./assets/images/studio-logo/blur.png" width="399px" height="auto">
           </div>
           <div>
             <h3>Technical Director</h3>
@@ -106,7 +121,7 @@
           </div>
           <!-- Double Negative -->
           <div>
-            <img src="../assets/images/studio-logo/dneg.png" width="399px" height="auto">
+            <img src="./assets/images/studio-logo/dneg.png" width="399px" height="auto">
           </div>
           <div>
             <h3>Technical Layout Director</h3>
@@ -121,7 +136,7 @@
           </div>
             <!-- Framestore -->
           <div>
-            <img src="../assets/images/studio-logo/fs.png" width="399px" height="auto">
+            <img src="./assets/images/studio-logo/fs.png" width="399px" height="auto">
           </div>
           <div>
             <h3>Technical Layout Director</h3>
@@ -134,7 +149,7 @@
           </div>
           <!-- Moving Picture Company -->
           <div>
-            <img src="../assets/images/studio-logo/mpc.png" width="399px" height="auto">
+            <img src="./assets/images/studio-logo/mpc.png" width="399px" height="auto">
           </div>
           <div>
             <h3>Technical Layout Director</h3>
@@ -151,7 +166,7 @@
           </div>
           <!-- DIGIC Pictures -->
           <div>
-            <img src="../assets/images/studio-logo/digic.png" width="399px" height="auto">
+            <img src="./assets/images/studio-logo/digic.png" width="399px" height="auto">
           </div>
           <div>
             <h3>Technical Previs Director</h3>
@@ -166,7 +181,7 @@
           </div>
           <!-- Cinematic Designer -->
           <div>
-            <img src="../assets/images/studio-logo/cdp.png" width="399px" height="auto">
+            <img src="./assets/images/studio-logo/cdp.png" width="399px" height="auto">
           </div>
           <div>
             <h3>Cinematic Designer</h3>
@@ -183,7 +198,7 @@
           </div>
           <!-- Platige Image -->
           <div>
-            <img src="../assets/images/studio-logo/pi.png" width="399px" height="auto">
+            <img src="./assets/images/studio-logo/pi.png" width="399px" height="auto">
           </div>
           <div>
             <h3>Layout Artist</h3>
@@ -206,13 +221,13 @@
     <!-- Section Education -->
     <section>
       <div class="sREd">
-        <!-- <hr> -->
-        <!-- <h2>Education</h2> -->
+        <div class="divider"></div>
         <h2>EDUCATION</h2>
+        <div class="divider"></div>
         <div class="sREd-grid">
           <!-- Academy of Fine Arts -->
           <div>
-            <img src="../assets/images/studio-logo/asp.png" width="399px" height="auto">
+            <img src="./assets/images/studio-logo/asp.png" width="399px" height="auto">
           </div>
           <div>
             <h3>Jan Matejko Academy of Fine Arts in Krakow</h3>
@@ -222,7 +237,7 @@
           </div>
           <!-- OpenCV University -->
           <div>
-            <img src="../assets/images/studio-logo/ocv.png" width="399px" height="auto">
+            <img src="./assets/images/studio-logo/ocv.png" width="399px" height="auto">
           </div>
           <div>
             <h3>OpenCV University</h3>
@@ -245,13 +260,13 @@
     <!-- Section Licenses & Certifications -->
     <section>
       <div class="sRLC">
-        <!-- <hr> -->
-        <!-- <h2>Licenses & Certifications</h2> -->
+        <div class="divider"></div>
         <h2>LICENSES & CERTIFICATIONS</h2>
+        <div class="divider"></div>
         <div class="sRLC-grid">
           <!-- AWS Certified Developer - Associate 2020 -->
           <div>
-            <img src="../assets/images/studio-logo/acg.png" width="399px" height="auto">
+            <img src="./assets/images/studio-logo/acg.png" width="399px" height="auto">
           </div>
           <div>
             <h3>AWS Certified Developer - Associate 2020</h3>
@@ -261,7 +276,7 @@
           </div>
           <!-- Beginning C++ Programming - From Beginner to Beyond -->
           <div>
-            <img src="../assets/images/studio-logo/udemy.webp" width="399px" height="auto">
+            <img src="./assets/images/studio-logo/udemy.webp" width="399px" height="auto">
           </div>
           <div>
             <h3>Beginning C++ Programming - From Beginner to Beyond</h3>
@@ -271,7 +286,7 @@
           </div>
           <!-- PCEP – Certified Entry-Level Python Programmer -->
           <div>
-            <img src="../assets/images/studio-logo/openedg.png" width="399px" height="auto">
+            <img src="./assets/images/studio-logo/openedg.png" width="399px" height="auto">
           </div>
           <div>
             <h3>PCEP - Certified Entry-Level Python Programmer</h3>
@@ -281,7 +296,7 @@
           </div>
           <!-- Complete Python Bootcamp From Zero to Hero -->
           <div>
-            <img src="../assets/images/studio-logo/udemy.webp" width="399px" height="auto">
+            <img src="./assets/images/studio-logo/udemy.webp" width="399px" height="auto">
           </div>
           <div>
             <h3>Complete Python Bootcamp From Zero to Hero</h3>
@@ -291,7 +306,7 @@
           </div>
           <!-- The Git & Github Bootcamp -->
           <div>
-            <img src="../assets/images/studio-logo/udemy.webp" width="399px" height="auto">
+            <img src="./assets/images/studio-logo/udemy.webp" width="399px" height="auto">
           </div>
           <div>
             <h3>The Git & Github Bootcamp</h3>
@@ -301,7 +316,7 @@
           </div>
           <!-- LE-1: Linux Essentials -->
           <div>
-            <img src="../assets/images/studio-logo/lpi.png" width="399px" height="auto">
+            <img src="./assets/images/studio-logo/lpi.png" width="399px" height="auto">
           </div>
           <div>
             <h3>LE-1: Linux Essentials</h3>
@@ -316,136 +331,137 @@
     <!-- Section Skills -->
     <section>
       <div class="sRSk">
-        <!-- <hr> -->
+        <div class="divider"></div>
         <h2>SKILLS</h2>
+        <div class="divider"></div>
         <div class="sRSk-grid">
           <!-- CSS -->
           <div class="sRSkIt-grid">
-            <div><img class="svg-invert" src="../assets/icons/css3-alt.svg"></div>
+            <div><img class="svg-invert" src="./assets/icons/css3-alt.svg"></div>
             <div>Cascading Style Sheets (CSS)</div>
           </div>
           <!-- HTML -->
           <div>
             <div class="sRSkIt-grid">
-              <div><img class="svg-invert" src="../assets/icons/html5.svg"></div>
+              <div><img class="svg-invert" src="./assets/icons/html5.svg"></div>
               <div>Hypertext Markup Language (HTML)</div>
             </div>
           </div>
           <!-- JavaScript -->
           <div>
             <div class="sRSkIt-grid">
-              <div><img class="svg-invert" src="../assets/icons/js.svg"></div>
+              <div><img class="svg-invert" src="./assets/icons/js.svg"></div>
               <div>JavaScript</div>
             </div>
           </div>
           <!-- Git -->
           <div>
             <div class="sRSkIt-grid">
-              <div><img class="svg-invert" src="../assets/icons/git-alt.svg"></div>
+              <div><img class="svg-invert" src="./assets/icons/git-alt.svg"></div>
               <div>Git</div>
             </div>
           </div>
           <!-- Github -->
           <div>
             <div class="sRSkIt-grid">
-              <div><img class="svg-invert" src="../assets/icons/github.svg"></div>
+              <div><img class="svg-invert" src="./assets/icons/github.svg"></div>
               <div>Github</div>
             </div>
           </div>
           <div>
             <div class="sRSkIt-grid">
-              <div><img class="svg-invert" src="../assets/icons/python.svg"></div>
+              <div><img class="svg-invert" src="./assets/icons/python.svg"></div>
               <div>Python</div>
             </div>
           </div>
           <!-- Flask -->
           <div>
             <div class="sRSkIt-grid">
-              <div><img class="svg-invert" src="../assets/icons/chemistry.svg"></div>
+              <div><img class="svg-invert" src="./assets/icons/chemistry.svg"></div>
               <div>Flask</div>
             </div>
           </div>
           <!-- Web Applications -->
           <div>
             <div class="sRSkIt-grid">
-              <div><img class="svg-invert" src="../assets/icons/application--web.svg"></div>
+              <div><img class="svg-invert" src="./assets/icons/application--web.svg"></div>
               <div>Web Applications</div>
             </div>
           </div>
           <!-- C++ -->
           <div>
             <div class="sRSkIt-grid">
-              <div><img class="svg-invert" src="../assets/icons/cube.svg"></div>
+              <div><img class="svg-invert" src="./assets/icons/cube.svg"></div>
               <div>C++</div>
             </div>
           </div>
           <!-- CMake -->
           <div>
             <div class="sRSkIt-grid">
-              <div><img class="svg-invert" src="../assets/icons/cube.svg"></div>
+              <div><img class="svg-invert" src="./assets/icons/cube.svg"></div>
               <div>Cmake</div>
             </div>
           </div>
           <!-- OpenCV -->
           <div>
             <div class="sRSkIt-grid">
-              <div><img class="svg-invert" src="../assets/icons/cube.svg"></div>
+              <div><img class="svg-invert" src="./assets/icons/cube.svg"></div>
               <div>OpenCV</div>
             </div>
           </div>
           <!-- Tensorflow / Keras -->
           <div>
             <div class="sRSkIt-grid">
-              <div><img class="svg-invert" src="../assets/icons/cube.svg"></div>
+              <div><img class="svg-invert" src="./assets/icons/cube.svg"></div>
               <div>Tensorflow / Keras</div>
             </div>
           </div>
           <!-- Computer Vision -->
           <div>
             <div class="sRSkIt-grid">
-              <div><img class="svg-invert" src="../assets/icons/sight.svg"></div>
+              <div><img class="svg-invert" src="./assets/icons/sight.svg"></div>
               <div>Computer Vision</div>
             </div>
           </div>
           <!-- Machine Learning -->
           <div>
             <div class="sRSkIt-grid">
-              <div><img class="svg-invert" src="../assets/icons/machine-learning-model.svg"></div>
+              <div><img class="svg-invert" src="./assets/icons/machine-learning-model.svg"></div>
               <div>Machine learning</div>
             </div>
           </div>
           <!-- Optimization -->
           <div>
             <div class="sRSkIt-grid">
-              <div><img class="svg-invert" src="../assets/icons/optimization.svg"></div>
+              <div><img class="svg-invert" src="./assets/icons/optimization.svg"></div>
               <div>Optimization</div>
             </div>
           </div>
           <!-- Automation -->
           <div>
             <div class="sRSkIt-grid">
-              <div><img class="svg-invert" src="../assets/icons/automation.svg"></div>
+              <div><img class="svg-invert" src="./assets/icons/automation.svg"></div>
               <div>Automation</div>
             </div>
           </div>
           <!-- Framework Development -->
           <div>
             <div class="sRSkIt-grid">
-              <div><img class="svg-invert" src="../assets/icons/development.svg"></div>
+              <div><img class="svg-invert" src="./assets/icons/development.svg"></div>
               <div>Framework Development</div>
             </div>
           </div>
           <!-- Linux -->
           <div>
             <div class="sRSkIt-grid">
-              <div><img class="svg-invert" src="../assets/icons/linux.svg"></div>
+              <div><img class="svg-invert" src="./assets/icons/linux.svg"></div>
               <div>Linux</div>
             </div>
           </div>
           <!-- Autodesk Maya -->
           <!-- <div>
             <div class="sRSkIt-grid">
-              <div><img class="svg-invert" src="../assets/icons/cube.svg"></div>
+              <div><img class="svg-invert" src="./assets/icons/cube.svg"></div>
               <div>Autodesk Maya</div>
             </div>
           </div> -->
@@ -454,7 +470,6 @@
     </section>
 
   </section>
-
 
   <!-- JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>

@@ -4,62 +4,201 @@
 
 
 
-body, html {
-  /* Layout */
-  margin: auto;
-  min-width: 480px;
-  max-width: 920px;
-  /* Color */
-  color: var(--grey10); 
-  background-color: var(--grey100);
-  /* Type */
-  text-align: center;
-  /* font-family: "IBM Plex Sans", sans-serif; */
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 
 
+body {
+  /* Layout */
+  /* margin: auto; */
+  /* min-width: 480px;
+  max-width: 800px; */
+  /* Color */
+  color: var(--grey10); 
+  background-color: var(--grey100);
+  /* Type */
+  /* text-align: center; */
+  /* font-family: "IBM Plex Sans", sans-serif; */
+  
+}
+
+.root {
+  min-width: 480px;
+  max-width: 840px;
+  margin: 50px auto;
+  padding: 20px 20px;
+  /* background-color: var(--grey90); */
+}
+
 
 /* Common */
+
+h1 {
+  /*.heading-07
+    This is for layout headings. Weight: 300 / Light.
+  */
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 3.375rem;
+  line-height: 4rem;
+  letter-spacing: 0px;
+}
+
+h2 {
+  /*.heading-06
+    This is for layout headings. Weight: 300 / Light.
+  */
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2.625rem;
+  line-height: 3.125rem;
+  letter-spacing: 0px;
+}
+
+h3 {
+  /*.heading-05
+    This is for layout headings. Weight: 300 / Light.
+  */
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  letter-spacing: 0px;
+}
+
+h4 {
+  /*.heading-04
+    This is for layout headings. Weight: 400 / Regular.
+  */
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  letter-spacing: 0px;
+}
+
+h5 {
+  /*.heading-03
+    This is for component and layout headings. Weight: 400 / Regular.
+  */
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  letter-spacing: 0px;
+}
+
+h6 {
+  /*.heading-02
+    This is for smaller layout headings. It pairs with $body-02. Weight: 600 / Semi-Bold.
+  */
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.0rem;
+  line-height: 1.5rem;
+  letter-spacing: 0px;
+}
+
 img {
   width: 100%;
   height: auto;
 }
 
+/* Buttons */
+button {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  letter-spacing: 0px;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0);
+  /* padding: 0 10px; */
+  opacity: 0.8;  
+  transition: opacity 0.2s;
+  vertical-align: middle;
+}
+button:hover {
+  opacity: 1.0;
+}
+button:active {
+  opacity: 0.6;
+}
+button svg {
+  width: 20px;
+  height: auto;
+}
+
+#btn-learn-more svg {
+  margin-top: -4px;
+}
+
+#btn-resume svg {
+  width: 22px;
+  height: auto;
+  margin-top: -2px;
+}
+
+#btn-contact-me svg {
+  width: 24px;
+  height: auto;
+  margin-top: -2px;
+}
+
+#btn-back-to-main svg {
+  width: 18px;
+  height: auto;
+  margin-top: -4px;
+}
+
+
+
+
 a {
   color: var(--blue60); /* Set the color of unvisited links */
 }
 a:visited {
-  color: var(--blue80); /* Set the color of visited links */
+  color: var(--blue70); /* Set the color of visited links */
 }
 
-.btn-svg {
-  border: 0;
-  background-color: rgba(0, 0, 0, 0);
-  padding: 0 10px;
-  opacity: 0.85;
+.dot-grid {
+  background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.25) 1px, transparent 0);
+  background-size: 4% 4%;
+  background-size: 40px 40px;
+  background-position: -1px -1px;
 }
-.btn-svg:hover {
-  opacity: 1.0;
-}
-.btn-svg:active {
-  opacity: 0.75;
-}
-.btn-svg-icon {
-  width: 20px;
-  height: auto;
-}
-.divider {
-  width: 20px;
-  height: 20px;
-  /* color: red;
-  border: 1px solid gray; */
+
+.container {
+  text-align: right;
 }
 
 
 
 
-/*  Utilities */
+/* Utilities */
 .svg-invert {
   filter: invert(70%);
 }
@@ -71,51 +210,22 @@ a:visited {
 
 
 /* Section Main */
-.sM {
+.sec-title {
   position: relative;
-  width: 100%;
-  height: auto;
+  /* width: 100%;
+  height: auto; */
+  /* padding-bottom: 20px; */
+  
   /* display: inline-block; */
 }
-.sM img {
-  position: relative;
-  top: 50%;
-  transform: translate(0%, -50%);
-  opacity: 0.85;
-}
-.sM h1 {
+.sec-title h1 {
   position: absolute;
-  width: 75%;
+  width: 80%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.sM h3 {
-  text-align: left;
-}
-.sM .btn-svg-icon {
-  vertical-align: middle;
-  margin-top: -4px;
-}
-.sM-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 30px 1fr 30px;
-  padding: 20px;
-  background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.25) 1px, transparent 0);
-  background-size: 4% 4%;
-  background-size: 40px 40px;
-  background-position: -21px -21px;
-  text-align: right;
-}
-/* .sM-grid > div {
-  text-align: right;
-  border: 1px solid gray;
-} */
-
-
-
 
 
 
@@ -130,23 +240,16 @@ a:visited {
 .sH img {
   border-radius: 5px;
 }
-.sH .btn-svg-icon {
-  width: 22px;
-  height: auto;
-  vertical-align: middle;
-  margin-top: -2px;
-}
+
 .sH-grid {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 0.5fr 0.25fr;
-  gap: 40px;
-  padding: 20px;
+  gap: 20px;
+  /* padding: 20px; */
   text-align: right;
 }
-/* .sH-grid > div {
-  border: 1px solid gray;
-} */
+
 
 
 
@@ -169,24 +272,16 @@ a:visited {
   background: linear-gradient(-45deg, #272525, #262626, #161616, #21272a);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   /* opacity: 0.5; */
 }
-.sC .txt-svg {
-  text-align: center;
-}
-.sC .btn-svg-icon {
-  width: 24px;
-  height: auto;
-  vertical-align: middle;
-  margin-top: -2px;
-}
+
 .sC-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 2fr 1fr .5fr;
-  gap: 40px;
-  padding: 20px;
+  gap: 20px;
+  /* padding: 20px; */
   /* text-align: right; */
 }
 /* .sC-grid > div {
@@ -204,10 +299,10 @@ a:visited {
   padding: 20px;
   /* line-height: 1.0; */
 }
-h2 {
+/* h2 {
   font-size: 24px;
   font-weight: 300;
-}
+} */
 .sR h3 {
   font-size: 24px;
   font-weight: 600;
@@ -231,15 +326,7 @@ h2 {
   top: 5px;
   border-radius: 10%;
 }
-.sR .btn-svg {
-  color: #f4f4f4;
-  text-align: left;
-  font-family: "IBM Plex Sans", sans-serif;
-}
-.sR .btn-svg-icon {
-  vertical-align: middle;
-  margin-bottom: 4px;
-}
+
 
 
 
