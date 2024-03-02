@@ -55,8 +55,10 @@ section {
 }
 section h5 {
   margin-bottom: 24px;
+  font-weight: 500;
 }
 
+/* List */
 ul {
   list-style-type: none;
   /* margin-bottom: 20px; */
@@ -70,6 +72,10 @@ li {
 }
 li:last-child {
   border-bottom: none;
+}
+
+li h4 {
+  font-weight: 500;
 }
 
 li img {
@@ -171,7 +177,7 @@ p {
 
 p.sub {
   font-weight: 200;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 }
 
 
@@ -262,9 +268,12 @@ a:visited {
 .svg-invert {
   filter: invert(70%);
 }
-.svg-invert:hover {
-  filter: invert(85%);
+.svg-greyscale {
+  filter: grayscale(100%);
 }
+/* .svg-invert:hover {
+  filter: invert(85%);
+} */
 
 
 
@@ -309,8 +318,6 @@ a:visited {
   /* padding: 20px; */
   text-align: right;
 }
-
-
 
 
 
