@@ -32,21 +32,16 @@ body {
   /* Type */
   /* text-align: center; */
   font-family: "IBM Plex Sans", sans-serif;
-  
 }
 
 .root {
   /* Layout */
   min-width: 480px;
   max-width: 840px;
-  margin: 50px auto;
+  margin: 40px auto;
   padding: 20px 20px;
   /* background-color: var(--grey90); */
 }
-/* .sC-grid > div {
-  border: 1px solid gray;
-} */
-
 
 
 /* Common */
@@ -57,6 +52,7 @@ section h5 {
   margin-bottom: 24px;
   font-weight: 500;
 }
+
 
 /* List */
 ul {
@@ -186,6 +182,7 @@ img {
   height: auto;
 }
 
+
 /* Buttons */
 button {
   /*.heading-03
@@ -241,10 +238,8 @@ button svg {
 }
 
 
-
-
 a {
-  color: var(--blue60); /* Set the color of unvisited links */
+  color: var(--blue50); /* Set the color of unvisited links */
 }
 a:visited {
   color: var(--blue70); /* Set the color of visited links */
@@ -271,21 +266,13 @@ a:visited {
 .svg-greyscale {
   filter: grayscale(100%);
 }
-/* .svg-invert:hover {
-  filter: invert(85%);
-} */
 
 
 
 
-/* Section Main */
+/* Section Title */
 .sec-title {
   position: relative;
-  /* width: 100%;
-  height: auto; */
-  /* padding-bottom: 20px; */
-  
-  /* display: inline-block; */
 }
 .sec-title h1 {
   position: absolute;
@@ -297,11 +284,9 @@ a:visited {
 }
 
 
-
 /* Section About Me */
 .sec-about-me {
   position: relative;
-  /* margin-bottom: 20px; */
 }
 .sec-about-me p {
   text-align: left;
@@ -309,16 +294,13 @@ a:visited {
 .sec-about-me img {
   border-radius: 5px;
 }
-
 .sec-about-me-grid {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 0.5fr 0.25fr;
   gap: 20px;
-  /* padding: 20px; */
   text-align: right;
 }
-
 
 
 /* Section Contact */
@@ -328,8 +310,6 @@ a:visited {
   background: linear-gradient(-45deg, #272525, #262626, #161616, #21272a);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
-  /* margin-top: 20px; */
-  /* opacity: 0.5; */
 }
 @keyframes gradient {
   0% {
@@ -348,13 +328,44 @@ a:visited {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 2fr 1fr .5fr;
   gap: 20px;
-  /* padding: 20px; */
-  /* text-align: right; */
 }
-/* .sC-grid > div {
-  border: 1px solid gray;
-} */
 
 
 
 /* Section Footer */
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* padding: 0px; */
+  /* vertical-align: middle; */
+  /* gap: 20px; */
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+footer li {
+  display: inline-block; /* Display list items inline */
+  margin-right: 10px;
+}
+
+footer li:last-child {
+  margin-right: 0px;
+}
+
+footer img {
+  width: 24px;
+  height: auto;
+  filter: invert(70%);
+}
+
+footer p {
+  color: var(--grey30);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
