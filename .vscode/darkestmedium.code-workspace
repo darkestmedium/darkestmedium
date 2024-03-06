@@ -1,13 +1,7 @@
 {
 	"folders": [
-		{
-			"path": "../"
-		},
     {
-      "path": "../../the-complete-web-development-bootcamp"
-    },
-    {
-      "path": "/home/darkest/Dropbox/os/fedora-kickstarts"
+      "path": ".."
     }
   ],
   "settings": {}
