@@ -6,7 +6,7 @@ import React from 'react';
 function Header() {
   return (
     <header>
-      <h1>Darkest Medium</h1>
+      <h4 className='ibm-plex-sans-semibold'>DARKEST MEDIUM</h4>
     </header>
   );
 }
