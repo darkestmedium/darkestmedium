@@ -234,15 +234,15 @@ const skillEntries = [
   },
   {
     id: 17,
-    img: "../assets/icons/jquery.svg",
-    alt: "JQuery",
-    skill: "JQuery",
-  },
-  {
-    id: 16,
     img: "../assets/icons/react.svg",
     alt: "React",
     skill: "React",
+  },
+  {
+    id: 16,
+    img: "../assets/icons/postgresql.svg",
+    alt: "PostgreSQL",
+    skill: "PostgreSQL",
   },
   {
     id: 15,
@@ -301,8 +301,8 @@ const skillEntries = [
   {
     id: 6,
     img: "../assets/icons/tensorflow.svg",
-    alt: "Tensorflow / Keras",
-    skill: "Tensorflow / Keras",
+    alt: "Tensorflow",
+    skill: "Tensorflow",
   },
   {
     id: 5,

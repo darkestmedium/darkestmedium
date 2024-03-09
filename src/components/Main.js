@@ -1,19 +1,23 @@
 import React from 'react';
 
+// Components
+import About from "./About"
+import Contact from './Contact';
 
 
 
-function Main() {
+
+function Main({toggleDisplay}) {
 
   const handleClick = () => {
     window.scrollTo({ top: 722, behavior: 'smooth' });
   };
 
   return (
-    <div className="sec-title dot-grid">
-      <img src="./assets/images/black-hole-particle-512px.webp" alt="animated sequence of a black hole"></img>
-      <h1>Travelling faster than light, at the speed of thought.</h1>
-      <div class="container">
+    <div className='sec-main'>
+      <div className="sec-title dot-grid">
+        <img src="./assets/images/black-hole-particle-512px.webp" alt="Animated sequence of a black hole"></img>
+        <h1>Travelling faster than light, at the speed of thought.</h1>
         <button onClick={handleClick}>
           LEARN MORE
           <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -21,6 +25,8 @@ function Main() {
           </svg>
         </button>
       </div>
+      <About toggleDisplay={toggleDisplay}/>
+      <Contact />
     </div>
   );
 }
