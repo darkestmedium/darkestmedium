@@ -7,7 +7,7 @@ function EntrySkill(props) {
 
   return (
     <div class="skill-item-grid">
-      <img class="svg-invert" src={props.img}></img>
+      <img class="svg-invert" src={props.img} alt={props.alt}></img>
       <p>{props.skill}</p>
     </div>
   );
