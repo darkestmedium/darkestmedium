@@ -1,10 +1,37 @@
 {
   "files": {
-    "main.js": "/darkestmedium/static/js/main.c7b10773.js",
+    "main.css": "/darkestmedium/static/css/main.dc80d048.css",
+    "main.js": "/darkestmedium/static/js/main.e02a10d1.js",
+    "static/media/black-hole-particle-512px.webp": "/darkestmedium/static/media/black-hole-particle-512px.df505bf93590edaeb9b6.webp",
+    "static/media/acg.png": "/darkestmedium/static/media/acg.257d526bfd4ccbba3a95.png",
+    "static/media/me.png": "/darkestmedium/static/media/me.bc93b0e8ab2f3874d288.png",
+    "static/media/react.svg": "/darkestmedium/static/media/react.9e9e4e0e1a73c0dfb3b549dc1b2c28de.svg",
+    "static/media/postgresql.svg": "/darkestmedium/static/media/postgresql.a8ebd00c571220a94c4329506ae261f8.svg",
+    "static/media/udemy.webp": "/darkestmedium/static/media/udemy.cc21d3c8f4a73185fee7.webp",
+    "static/media/linux.svg": "/darkestmedium/static/media/linux.8eb8ef700776bede511966ba5880c3df.svg",
+    "static/media/python.svg": "/darkestmedium/static/media/python.f879c102d20a1afca166316d1eb46497.svg",
+    "static/media/nodejs.svg": "/darkestmedium/static/media/nodejs.4ec61574a2bb082961bcf433488278f8.svg",
+    "static/media/machine-learning-model.svg": "/darkestmedium/static/media/machine-learning-model.f8d73f2cf261aa9eb33bcad8c68a53fa.svg",
+    "static/media/optimization.svg": "/darkestmedium/static/media/optimization.fd614f178712aa27a5effd722ec2c31e.svg",
+    "static/media/c++.svg": "/darkestmedium/static/media/c++.fb9bb64e3114617c85b26ea959088104.svg",
     "index.html": "/darkestmedium/index.html",
-    "main.c7b10773.js.map": "/darkestmedium/static/js/main.c7b10773.js.map"
+    "static/media/opencv.svg": "/darkestmedium/static/media/opencv.0ff4a002bb1da6f73c10be6d3c143275.svg",
+    "static/media/automation.svg": "/darkestmedium/static/media/automation.7c48f59191fadf7ef14110bf17bc396c.svg",
+    "static/media/sight.svg": "/darkestmedium/static/media/sight.d757038895afad0f37a57e6d9be2e818.svg",
+    "static/media/tensorflow.svg": "/darkestmedium/static/media/tensorflow.f1f2cc2f8c3299830cbbc04f4a330285.svg",
+    "static/media/github.svg": "/darkestmedium/static/media/github.a2dcecaacdba94077f71818776dd805b.svg",
+    "static/media/js.svg": "/darkestmedium/static/media/js.29766acfed0ccb49c84e131ee4c15f88.svg",
+    "static/media/git.svg": "/darkestmedium/static/media/git.4ac77e9b75f2e873e99c36cb49997aac.svg",
+    "static/media/application--web.svg": "/darkestmedium/static/media/application--web.36c5fed824d8706495b21daa55dc7a7e.svg",
+    "static/media/development.svg": "/darkestmedium/static/media/development.00cf6b522161f5668dadd4acdfd67271.svg",
+    "static/media/css3.svg": "/darkestmedium/static/media/css3.5203500328562dc8692f84d1353c27af.svg",
+    "static/media/html5.svg": "/darkestmedium/static/media/html5.4fe58d7ec3bbf063476a6c80276c62e0.svg",
+    "static/media/cmake.svg": "/darkestmedium/static/media/cmake.2e3c725401f18ec440b03432d9a62ad9.svg",
+    "main.dc80d048.css.map": "/darkestmedium/static/css/main.dc80d048.css.map",
+    "main.e02a10d1.js.map": "/darkestmedium/static/js/main.e02a10d1.js.map"
   },
   "entrypoints": [
-    "static/js/main.c7b10773.js"
+    "static/css/main.dc80d048.css",
+    "static/js/main.e02a10d1.js"
   ]
 }
