@@ -10,6 +10,7 @@ import Resume from "./Resume"
 
 
 function App() {
+
   const [showMain, setShowMain] = useState(true);
 
   const toggleDisplay = () => {

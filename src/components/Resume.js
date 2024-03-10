@@ -30,11 +30,15 @@ function Resume({toggleDisplay}) {
           <div><a href="https://github.com/darkestmedium">github.com/darkestmedium</a></div>
           <div><a href="https://darkestmedium.github.io/darkestmedium/">darkestmedium.github.io</a></div>
         </div>
-        <p>Experienced Technical Animation Director with a proven track record in Commercials, Films, and Games.
-          Skilled in Maya, Python, and C++. Responsible for pipeline optimization, improvement of in-house tools, and workflow automation.
-          I am resourceful, highly motivated, and in constant search of new challenges to grow my skills.
-          I've spent my entire career jumping into projects in the 11th hour to fight fires and solve impossible problems.
-          Now super excited about web development!
+        <p>As an Accomplished Technical Animation Director, I have a solid history of success in leading
+          projects across Commercials, Films, and Games. Proficient in Maya, Python, and C++, 
+          I've spearheaded pipeline optimization, enhanced in-house tools, and streamlined workflow processes. 
+          Throughout my career, I've thrived on tackling challenges head-on, often joining projects 
+          at critical junctures to troubleshoot and conquer seemingly insurmountable obstacles. 
+          However, fueled by an unyielding passion for growth and innovation, I am now transitioning 
+          my expertise towards becoming a top-tier web developer. Currently immersed in mastering 
+          full stack development and blockchain technologies (including JavaScript, React, ICP, among others), 
+          I am driven to excel in this dynamic field and am eagerly embracing the exciting opportunities it presents.
         </p>
       </div>
       <ul>

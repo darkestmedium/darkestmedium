@@ -16,10 +16,11 @@ function About({toggleDisplay}) {
           <h4 className="ibm-plex-sans-semibold">- ME.</h4>
         </div>
         <div>
-          <p className="body-02">I like to code, solve problems and face new challenges - it's a form of meditation.</p>
           <p className="body-02">
-            Since the youngest age obssesed with technology and hardware.
-            In the mean time I like to watch movies and listen to music.
+            Coding, problem-solving, and tackling new challenges have always been my form of meditation. 
+            From a young age, I've been captivated by technology and hardware, constantly exploring 
+            their intricacies and possibilities. In my downtime, I enjoy indulging in movies and music, 
+            finding inspiration and relaxation in their stories and melodies.
           </p>
         </div>
         <div>
