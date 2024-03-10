@@ -1,7 +1,7 @@
 const workEntries = [
   {
     id: 8,
-    img: "../assets/images/studios/dm.png",
+    img: "./assets/images/studios/dm.png",
     alt: "Darkest Medium logo.",
     position: "Web Developer",
     company: "Darkest Medium · Full-time",
@@ -11,7 +11,7 @@ const workEntries = [
   },
   {
     id: 7,
-    img: "../assets/images/studios/bambaa.png",
+    img: "./assets/images/studios/bambaa.png",
     alt: "Bambaa logo.",
     position: "Technical Animation Director",
     company: "Bambaa · Full-time",
@@ -25,7 +25,7 @@ const workEntries = [
   },
   {
     id: 6,
-    img: "../assets/images/studios/blur.png",
+    img: "./assets/images/studios/blur.png",
     alt: "Blur Studio logo.",
     position: "Technical Director",
     company: "Blur Studio · Full-time",
@@ -38,7 +38,7 @@ const workEntries = [
   },
   {
     id: 5,
-    img: "../assets/images/studios/dneg.png",
+    img: "./assets/images/studios/dneg.png",
     alt: "Double Negative logo.",
     position: "Technical Layout Director",
     company: "Double Negative · Full-time",
@@ -51,7 +51,7 @@ const workEntries = [
   },
   {
     id: 4,
-    img: "../assets/images/studios/fs.png",
+    img: "./assets/images/studios/fs.png",
     alt: "Framestore logo.",
     position: "Technical Layout Director",
     company: "Framestore · Full-time",
@@ -61,7 +61,7 @@ const workEntries = [
   },
   {
     id: 3,
-    img: "../assets/images/studios/mpc.png",
+    img: "./assets/images/studios/mpc.png",
     alt: "Moving Picture Company logo.",
     position: "Technical Layout Director",
     company: "Moving Picture Company · Full-time",
@@ -76,7 +76,7 @@ const workEntries = [
   },
   {
     id: 2,
-    img: "../assets/images/studios/digic.png",
+    img: "./assets/images/studios/digic.png",
     alt: "DIGIC Pictures logo.",
     position: "Technical Previs Director",
     company: "DIGIC Pictures · Full-time",
@@ -89,7 +89,7 @@ const workEntries = [
   },
   {
     id: 1,
-    img: "../assets/images/studios/cdp.png",
+    img: "./assets/images/studios/cdp.png",
     alt: "CD PROJEKT RED logo.",
     position: "Cinematic Designer",
     company: "CD PROJEKT RED · Full-time",
@@ -104,7 +104,7 @@ const workEntries = [
   },
   {
     id: 0,
-    img: "../assets/images/studios/pi.png",
+    img: "./assets/images/studios/pi.png",
     alt: "Platige Image logo.",
     position: "Layout Artist",
     company: "Platige Image · Full-time",
@@ -126,7 +126,7 @@ const workEntries = [
 const educationEntires = [
   {
     id: 1,
-    img: "../assets/images/studios/asp.png",
+    img: "./assets/images/studios/asp.png",
     alt: "Jan Matejko Academy of Fine Arts in Krakow.",
     university: "Jan Matejko Academy of Fine Arts in Krakow",
     degree: "Master's Degree, Animated Film",
@@ -135,7 +135,7 @@ const educationEntires = [
   },
   {
     id: 0,
-    img: "../assets/images/studios/ocv.png",
+    img: "./assets/images/studios/ocv.png",
     alt: "OpenCV University",
     university: "OpenCV University",
     degree: "88%, Computer Software Engineering",
@@ -156,7 +156,7 @@ const educationEntires = [
 const licCertEntries = [
   {
     id: 5,
-    img: "../assets/images/studios/acg.png",
+    img: "./assets/images/studios/acg.png",
     alt: "Udemy",
     name: "AWS Certified Developer - Associate 2020",
     company: "A Cloud Guru",
@@ -166,7 +166,7 @@ const licCertEntries = [
   },
   {
     id: 4,
-    img: "../assets/images/studios/udemy.webp",
+    img: "./assets/images/studios/udemy.webp",
     alt: "Udemy",
     name: "Beginning C++ Programming - From Beginner to Beyond",
     company: "Udemy",
@@ -176,7 +176,7 @@ const licCertEntries = [
   },
   {
     id: 3,
-    img: "../assets/images/studios/openedg.png",
+    img: "./assets/images/studios/openedg.png",
     alt: "OpenEDG Python Institute",
     name: "PCEP - Certified Entry-Level Python Programmer",
     company: "OpenEDG Python Institute",
@@ -186,7 +186,7 @@ const licCertEntries = [
   },
   {
     id: 2,
-    img: "../assets/images/studios/udemy.webp",
+    img: "./assets/images/studios/udemy.webp",
     alt: "Udemy",
     name: "Complete Python Bootcamp From Zero to Hero",
     company: "Udemy",
@@ -196,7 +196,7 @@ const licCertEntries = [
   },
   {
     id: 1,
-    img: "../assets/images/studios/udemy.webp",
+    img: "./assets/images/studios/udemy.webp",
     alt: "The Git & Github Bootcamp",
     name: "The Git & Github Bootcamp",
     company: "Udemy",
@@ -206,7 +206,7 @@ const licCertEntries = [
   },
   {
     id: 0,
-    img: "../assets/images/studios/lpi.png",
+    img: "./assets/images/studios/lpi.png",
     alt: "LE-1: Linux Essentials",
     name: "LE-1: Linux Essentials",
     company: "Linux Professional Institute",
@@ -222,121 +222,121 @@ const licCertEntries = [
 const skillEntries = [
   {
     id: 19,
-    img: "../assets/icons/js.svg",
+    img: "./assets/icons/js.svg",
     alt: "JavaScript",
     skill: "JavaScript",
   },
   {
     id: 18,
-    img: "../assets/icons/nodejs.svg",
+    img: "./assets/icons/nodejs.svg",
     alt: "Node.js",
     skill: "Node.js",
   },
   {
     id: 17,
-    img: "../assets/icons/react.svg",
+    img: "./assets/icons/react.svg",
     alt: "React",
     skill: "React",
   },
   {
     id: 16,
-    img: "../assets/icons/postgresql.svg",
+    img: "./assets/icons/postgresql.svg",
     alt: "PostgreSQL",
     skill: "PostgreSQL",
   },
   {
     id: 15,
-    img: "../assets/icons/css3.svg",
+    img: "./assets/icons/css3.svg",
     alt: "CSS",
     skill: "CSS",
   },
   {
     id: 14,
-    img: "../assets/icons/html5.svg",
+    img: "./assets/icons/html5.svg",
     alt: "HTML",
     skill: "HTML",
   },
   {
     id: 13,
-    img: "../assets/icons/git.svg",
+    img: "./assets/icons/git.svg",
     alt: "Git",
     skill: "Git",
   },
   {
     id: 12,
-    img: "../assets/icons/github.svg",
+    img: "./assets/icons/github.svg",
     alt: "GitHub",
     skill: "GitHub",
   },
   {
     id: 11,
-    img: "../assets/icons/application--web.svg",
+    img: "./assets/icons/application--web.svg",
     alt: "Web Applications",
     skill: "Web Applications",
   },
   {
     id: 10,
-    img: "../assets/icons/python.svg",
+    img: "./assets/icons/python.svg",
     alt: "Python",
     skill: "Python",
   },
   {
     id: 9,
-    img: "../assets/icons/c++.svg",
+    img: "./assets/icons/c++.svg",
     alt: "C++",
     skill: "C++",
   },
   {
     id: 8,
-    img: "../assets/icons/cmake.svg",
+    img: "./assets/icons/cmake.svg",
     alt: "CMake",
     skill: "CMake",
   },
   {
     id: 7,
-    img: "../assets/icons/opencv.svg",
+    img: "./assets/icons/opencv.svg",
     alt: "OpenCV",
     skill: "OpenCV",
   },
   {
     id: 6,
-    img: "../assets/icons/tensorflow.svg",
+    img: "./assets/icons/tensorflow.svg",
     alt: "Tensorflow",
     skill: "Tensorflow",
   },
   {
     id: 5,
-    img: "../assets/icons/sight.svg",
+    img: "./assets/icons/sight.svg",
     alt: "Computer Vision",
     skill: "Computer Vision",
   },
   {
     id: 4,
-    img: "../assets/icons/machine-learning-model.svg",
+    img: "./assets/icons/machine-learning-model.svg",
     alt: "Machine Learning",
     skill: "Machine Learning",
   },
   {
     id: 3,
-    img: "../assets/icons/optimization.svg",
+    img: "./assets/icons/optimization.svg",
     alt: "Optimization",
     skill: "Optimization",
   },
   {
     id: 2,
-    img: "../assets/icons/automation.svg",
+    img: "./assets/icons/automation.svg",
     alt: "Automation",
     skill: "Automation",
   },
   {
     id: 1,
-    img: "../assets/icons/development.svg",
+    img: "./assets/icons/development.svg",
     alt: "Framework Development",
     skill: "Framework Development",
   },
   {
     id: 0,
-    img: "../assets/icons/linux.svg",
+    img: "./assets/icons/linux.svg",
     alt: "Linux",
     skill: "Linux",
   },
