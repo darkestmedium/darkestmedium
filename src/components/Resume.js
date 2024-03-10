@@ -6,7 +6,11 @@ import EntrySkill from './EntrySkill';
 import EntryLink from './EntryLink';
 import EntryWork from './EntryWork';
 
-import {workEntries, educationEntires, licCertEntries, skillEntries} from "../data/ResumeEntries"
+// Images
+import imgAsp from '../assets/images/studio/asp.png'
+import imgOcv from '../assets/images/studio/ocv.png'
+
+import {workEntries, licCertEntries, skillEntries} from "../data/ResumeEntries"
 
 
 
@@ -59,7 +63,33 @@ function Resume({toggleDisplay}) {
         </div>
         <div className="sec-education">
           <h5>EDUCATION</h5>
-          {educationEntires.map(entry => (
+          <li>
+            <div><img src={imgAsp} alt="Jan Matejko Academy of Fine Arts in Krakow."></img></div>
+            <div>
+              <h4>Jan Matejko Academy of Fine Arts in Krakow</h4>
+              <p className="subTitle">Master's Degree, Animated Film</p>
+              <p className="subLabel2">Oct 2009 - Oct 2014 · 5 years</p>
+              <p>Graduation project <a href="https://youtu.be/MUHwqzW41yo?si=IedlzpxlIBRMlkEr">Where'd the Ghosts Go?</a></p>
+            </div>
+          </li>
+          <li>
+            <div><img src={imgOcv} alt="OpenCV University"></img></div>
+            <div>
+              <h4>OpenCV University</h4>
+              <p className="subTitle">88%, Computer Software Engineering</p>
+              <p className="subLabel2">Nov 2023 - Nov 2024 · 1 year</p>
+              <p>Program description <a href="https://opencv.org/university/cvdl-master/">CVDL Master Program</a></p>
+              <p>Mastering OpenCV with Python · 94% · 141a33e410984004b0e1e97069f4861f</p>
+              <p>Fundamentals of Computer Vision & Image Processing in Python · 99% · a59e0c3ff7e94f9bb11915c0ad6c0b34</p>
+              <p>Fundamentals of Computer Vision & Image Processing in C++ · 95% · d3b5932cd8184dd6bba6f3dd4fa28eec</p>
+              <p>Deep Learning with PyTorch · 78% · 8a749e6e258d4f478337b2f0e2574c18</p>
+              <p>Deep Learning with TensorFlow & Keras · 82% · 4897cd4d4cfc402fbb2830741e9c23bb</p>
+              <p>Computer Vision & Deep Learning Applications · 79% · 5fd49f0421624946b320b1e80f2c319e</p>
+              <p>AI Art Generation for Everyone · 89% · 66111c8869584727b1107d65ee06ee70</p>
+              <p>Advanced AI Art Generation · 95% · cb4ccabab54b4939a4e071fc725d08ad</p>
+            </div>
+          </li>
+          {/* {educationEntires.map(entry => (
             <Entry
               img = {entry.img}
               alt = {entry.alt}
@@ -69,7 +99,7 @@ function Resume({toggleDisplay}) {
               description = {entry.description}
               key = {entry.id}
             />
-          ))}
+          ))} */}
         </div>
         <div className="sec-lic-cert">
           <h5>LICENSES & CERTIFICATIONS</h5>
