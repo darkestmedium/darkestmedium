@@ -1,5 +1,8 @@
 import React from 'react';
 
+import imgAvatar from '../assets/images/me.png';
+
+
 
 
 
@@ -9,7 +12,7 @@ function About({toggleDisplay}) {
     <div className="sec-about-me">
       <div className="sec-about-me-grid">
         <div>
-          <img src="./assets/images/me.png" alt="Blurred out my self."></img>
+          <img src={imgAvatar} alt="Blurred out my self."></img>
         </div>
         <div>
           <h1>“You can't control something you don't understand”</h1>

@@ -1,5 +1,7 @@
 import React from 'react';
 
+import imgGitHub from "../assets/icons/github.svg"
+
 
 
 
@@ -9,7 +11,7 @@ function Footer() {
     <footer>
       <div><p>ⓒ {currentYear} Darkest Medium</p></div>
       <ul>
-        <li><a href="https://github.com/darkestmedium"><img src="./assets/icons/github.svg" alt="GitHub icon."></img></a></li>
+        <li><a href="https://github.com/darkestmedium"><img src={imgGitHub} alt="GitHub icon."></img></a></li>
       </ul>
     </footer>
   );
