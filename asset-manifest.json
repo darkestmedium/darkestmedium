@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/darkestmedium/static/css/main.dc80d048.css",
-    "main.js": "/darkestmedium/static/js/main.e02a10d1.js",
+    "main.js": "/darkestmedium/static/js/main.1af60f8b.js",
     "static/media/black-hole-particle-512px.webp": "/darkestmedium/static/media/black-hole-particle-512px.df505bf93590edaeb9b6.webp",
     "static/media/acg.png": "/darkestmedium/static/media/acg.257d526bfd4ccbba3a95.png",
     "static/media/me.png": "/darkestmedium/static/media/me.bc93b0e8ab2f3874d288.png",
@@ -28,10 +28,10 @@
     "static/media/html5.svg": "/darkestmedium/static/media/html5.4fe58d7ec3bbf063476a6c80276c62e0.svg",
     "static/media/cmake.svg": "/darkestmedium/static/media/cmake.2e3c725401f18ec440b03432d9a62ad9.svg",
     "main.dc80d048.css.map": "/darkestmedium/static/css/main.dc80d048.css.map",
-    "main.e02a10d1.js.map": "/darkestmedium/static/js/main.e02a10d1.js.map"
+    "main.1af60f8b.js.map": "/darkestmedium/static/js/main.1af60f8b.js.map"
   },
   "entrypoints": [
     "static/css/main.dc80d048.css",
-    "static/js/main.e02a10d1.js"
+    "static/js/main.1af60f8b.js"
   ]
 }
