@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
+import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // Components
@@ -12,11 +13,11 @@ function App() {
 
   return (
     <div className='root'>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Nav />
         <Routes>
-          <Route exact path="/" element={<Main />} />
-          <Route exact path="/resume" element={<Resume />} />
+          <Route path="/" element={<Main />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
         <Footer />
       </BrowserRouter>
