@@ -1,16 +1,16 @@
 import React from 'react';
 
 // Components
-import Entry from './Entry';
-import EntrySkill from './EntrySkill';
-import EntryLink from './EntryLink';
-import EntryWork from './EntryWork';
+// import Entry from '../Entry';
+import EntrySkill from '../EntrySkill';
+import EntryLink from '../EntryLink';
+import EntryWork from '../EntryWork';
 
 // Images
-import imgAsp from '../assets/images/studio/asp.png'
-import imgOcv from '../assets/images/studio/ocv.png'
+import imgAsp from '../../assets/images/studio/asp.png'
+import imgOcv from '../../assets/images/studio/ocv.png'
 
-import {workEntries, licCertEntries, skillEntries} from "../data/ResumeEntries"
+import {workEntries, licCertEntries, skillEntries} from "../../data/ResumeEntries"
 
 
 

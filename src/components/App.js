@@ -4,8 +4,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // Components
 import Nav from './Navbar';
-import Main from "./Main"
-import Resume from "./Resume"
+import Home from "./pages/Home"
+import Resume from "./pages/Resume"
 import Footer from "./Footer"
 
 
@@ -16,7 +16,7 @@ function App() {
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Nav />
         <Routes>
-          <Route exact path="/" element={<Main />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/resume" element={<Resume />} />
         </Routes>
         <Footer />
