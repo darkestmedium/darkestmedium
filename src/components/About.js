@@ -9,7 +9,7 @@ import imgAvatar from '../assets/images/me.png';
 function About() {
 
   const handleClick = () => {
-    window.location.href = "/resume";
+    window.location.href = "/darkestmedium/resume";
   };
 
   return (
