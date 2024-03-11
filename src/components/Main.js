@@ -10,7 +10,8 @@ import imgBlackHole from '../assets/images/black-hole-particle-512px.webp';
 
 
 
-function Main({toggleDisplay}) {
+// function Main({toggleDisplay}) {
+function Main() {
 
   const handleClick = () => {
     window.scrollTo({ top: 722, behavior: 'smooth' });
@@ -19,7 +20,6 @@ function Main({toggleDisplay}) {
   return (
     <div className='sec-main'>
       <div className="sec-title dot-grid">
-        {/* <img src='../assets/images/black-hole-particle-512px.webp' alt="Animated sequence of a black hole"></img> */}
         <img src={imgBlackHole} alt="Animated sequence of a black hole"></img>
         <h1>Travelling faster than light, at the speed of thought.</h1>
         <button onClick={handleClick}>
@@ -29,7 +29,8 @@ function Main({toggleDisplay}) {
           </svg>
         </button>
       </div>
-      <About toggleDisplay={toggleDisplay}/>
+      {/* <About toggleDisplay={toggleDisplay}/> */}
+      <About/>
       <Contact />
     </div>
   );

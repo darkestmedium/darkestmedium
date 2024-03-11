@@ -9,9 +9,9 @@ function Footer() {
   const currentYear = new Date().getFullYear();
   return (
     <footer>
-      <div><p>ⓒ {currentYear} Darkest Medium</p></div>
+      <div><p>Copyright ⓒ {currentYear} Darkest Medium</p></div>
       <ul>
-        <li><a href="https://github.com/darkestmedium"><img src={imgGitHub} alt="GitHub icon."></img></a></li>
+        <li><a href="https://github.com/darkestmedium"><img src={imgGitHub} alt="GitHub"></img></a></li>
       </ul>
     </footer>
   );

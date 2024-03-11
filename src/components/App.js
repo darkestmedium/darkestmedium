@@ -1,27 +1,25 @@
 import React, { useState } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // Components
-import Header from "./Header"
+import Nav from './Navbar';
 import Main from "./Main"
-import Footer from "./Footer"
 import Resume from "./Resume"
-
-
+import Footer from "./Footer"
 
 
 function App() {
 
-  const [showMain, setShowMain] = useState(true);
-
-  const toggleDisplay = () => {
-    setShowMain(!showMain);
-  };
-
   return (
     <div className='root'>
-      <Header />
-      {showMain ? <Main toggleDisplay={toggleDisplay} /> : <Resume toggleDisplay={toggleDisplay} />}
-      <Footer />
+      <BrowserRouter>
+        <Nav />
+        <Routes>
+          <Route exact path="/" element={<Main />} />
+          <Route exact path="/resume" element={<Resume />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }

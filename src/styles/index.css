@@ -43,11 +43,7 @@ body {
   /* background-color: var(--grey90); */
 }
 
-header {
-  background-color: black;
-  /* margin: 40px auto; */
-  padding: 10px 10px;
-}
+
 
 
 /* Common */
@@ -255,11 +251,11 @@ a {
   font-size: 1.0rem;  
   line-height: 1.5rem;
   letter-spacing: 0.0px;
-  color: var(--blue50);
+  color: var(--blue60);
 }
-a:visited {
+/* a:visited {
   color: var(--blue70);
-}
+} */
 
 
 
@@ -374,11 +370,11 @@ footer ul {
   padding: 0;
   margin: 0;
   text-align: right;
+  margin-right: 10px;
 }
 
 footer li {
-  display: inline-block; /* Display list items inline */
-  margin-right: 10px;
+  display: inline-block;
 }
 
 footer li:last-child {
@@ -501,4 +497,3 @@ footer p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
