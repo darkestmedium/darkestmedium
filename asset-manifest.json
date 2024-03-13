@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/darkestmedium/static/css/main.f1424334.css",
-    "main.js": "/darkestmedium/static/js/main.86d4da25.js",
+    "main.js": "/darkestmedium/static/js/main.3e9f9417.js",
     "static/media/bhp-512px.webp": "/darkestmedium/static/media/bhp-512px.df505bf93590edaeb9b6.webp",
     "static/media/bhp-static-512px.webp": "/darkestmedium/static/media/bhp-static-512px.5dba3b9b4452be9b2c47.webp",
     "static/media/acg.png": "/darkestmedium/static/media/acg.257d526bfd4ccbba3a95.png",
@@ -30,10 +30,10 @@
     "static/media/cmake.svg": "/darkestmedium/static/media/cmake.2e3c725401f18ec440b03432d9a62ad9.svg",
     "static/media/square.svg": "/darkestmedium/static/media/square.eed97262ac0f8bf65702bb94bb34a90b.svg",
     "main.f1424334.css.map": "/darkestmedium/static/css/main.f1424334.css.map",
-    "main.86d4da25.js.map": "/darkestmedium/static/js/main.86d4da25.js.map"
+    "main.3e9f9417.js.map": "/darkestmedium/static/js/main.3e9f9417.js.map"
   },
   "entrypoints": [
     "static/css/main.f1424334.css",
-    "static/js/main.86d4da25.js"
+    "static/js/main.3e9f9417.js"
   ]
 }
