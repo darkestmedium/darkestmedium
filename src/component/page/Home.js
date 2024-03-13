@@ -9,6 +9,9 @@ import Contact from '../Contact';
 import imgBlackHole from '../../assets/images/bhp-static-512px.webp';
 import seqBlackHole from '../../assets/images/bhp-512px.webp';
 
+// import Button from '@mui/material/Button';
+
+
 
 
 
@@ -23,13 +26,11 @@ function Home() {
     <div className='sec-main'>
       <div className="sec-title dot-grid">
         {/* <img src={seqBlackHole} alt="Animated sequence of a black hole"></img> */}
-        {/* Static image placeholder */}
         <img
           src={imgBlackHole}
           alt="Placeholder"
           style={{ display: imageLoaded ? 'none' : 'block' }}
         />
-        {/* Large animated WebP image */}
         <img
           src={seqBlackHole}
           alt="Animated sequence of a black hole"
@@ -38,6 +39,7 @@ function Home() {
           loading="lazy"
         />
         <h1>Travelling faster than light, at the speed of thought.</h1>
+        {/* <Button variant="text">LEARN MORE</Button> */}
         <button onClick={handleClick}>
           LEARN MORE
           <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">

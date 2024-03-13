@@ -7,6 +7,7 @@ import imgAvatar from '../assets/images/me.png';
 
 
 function About() {
+
   const navigate = useNavigate();
 
   const handleClick = () => {

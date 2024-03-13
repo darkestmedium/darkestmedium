@@ -264,7 +264,7 @@ a {
   background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.25) 1px, transparent 0);
   /* background-size: 4% 4%; */
   background-size: 40px 40px;
-  background-position: -1px -8px;
+  background-position: -1px -11px;
 }
 
 .container {

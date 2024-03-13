@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 // Components
-import App from "./components/App"
+import App from "./component/App"
 
 // Styles
-import './styles/index.css';
+import './style/index.css';
 
 
 

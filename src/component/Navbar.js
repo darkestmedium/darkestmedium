@@ -3,15 +3,16 @@ import { Link } from 'react-router-dom';
 
 import './Navbar.css'
 
+import svgLogo from '../assets/icons/square.svg'
+
 
 
 
 function Navbar() {
   return (
     <nav className="navbar">
-      <Link to="/"><h4>DARKEST MEDIUM</h4></Link>
+      <Link to="/"><img className="svg-img" src={svgLogo} alt="Logo" /></Link>
       <ul>
-        <Link to="/">Home</Link>
         <Link to="/resume">Resume</Link>
       </ul>
     </nav>

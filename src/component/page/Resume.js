@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // Components
 // import Entry from '../Entry';
@@ -25,8 +26,10 @@ function Resume() {
         <div className="sec-info-grid">
           <div>darkestmedium@pm.me</div>
           <div>+48 781 444 202</div>
-          <div><a href="https://github.com/darkestmedium">github.com/darkestmedium</a></div>
-          <div><a href="https://darkestmedium.github.io/darkestmedium/">darkestmedium.github.io</a></div>
+          {/* <div><a href="https://github.com/darkestmedium">github.com/darkestmedium</a></div>
+          <div><a href="https://darkestmedium.github.io/darkestmedium/">darkestmedium.github.io</a></div> */}
+          <div><Link to="https://github.com/darkestmedium">github.com/darkestmedium</Link></div>
+          <div><Link to="https://darkestmedium.github.io/darkestmedium/">github.com/darkestmedium</Link></div>
         </div>
         <p>As an Accomplished Technical Animation Director, I have a solid history of success in leading
           projects across Commercials, Films, and Games. Proficient in Maya, Python, and C++, 

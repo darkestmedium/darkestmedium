@@ -100,23 +100,23 @@ const workEntries = [
       Pictures). Led shot assembly, previs, and layout efforts, showcasing a strong ability to enhance visual \
       storytelling and drive project success.",
   },
-  {
-    id: 4,
-    img: imgFs,
-    alt: "Framestore logo.",
-    position: "Technical Layout Director",
-    company: "Framestore · Full-time",
-    time: "Oct 2019 - Dec 2019 · 3 months",
-    location: "Montreal, Canada, On-site",
-    description: "Worked as a Technical Layout Director on the Tom and Jerry feature film for Warner Bros. Pictures and Jingle Jangle - Netflix.",
-  },
+  // {
+  //   id: 4,
+  //   img: imgFs,
+  //   alt: "Framestore logo.",
+  //   position: "Technical Layout Director",
+  //   company: "Framestore · Full-time",
+  //   time: "Oct 2019 - Dec 2019 · 3 months",
+  //   location: "Montreal, Canada, On-site",
+  //   description: "Worked as a Technical Layout Director on the Tom and Jerry feature film for Warner Bros. Pictures and Jingle Jangle - Netflix.",
+  // },
   {
     id: 3,
     img: imgMpc,
     alt: "Moving Picture Company logo.",
     position: "Technical Layout Director",
     company: "Moving Picture Company · Full-time",
-    time: "Apr 2019 - Oct 2019 · 7 months",
+    time: "Mar 2019 - Dec 2019 · 10 months",
     location: "Montreal, Canada, On-site",
     description: "Experienced Technical Layout Director with a proven record of orchestrating shot assembly and \
       optimizing workflows for impactful visual storytelling. Instrumental in the success of 'Call of The \
@@ -125,19 +125,19 @@ const workEntries = [
       pressure situations, consistently ensuring project alignment and quality. Adroitly managed challenges \
       arising from decision-making delays, preventing budget overruns and maintaining project excellence.",
   },
-  {
-    id: 2,
-    img: imgDigic,
-    alt: "DIGIC Pictures logo.",
-    position: "Technical Previs Director",
-    company: "DIGIC Pictures · Full-time",
-    time: "Dec 2018 - Mar 2019 · 4 months",
-    location: "Budapest, Hungary, On-site",
-    description: "Experienced Previs Artist and Technical Director, contributing to successful projects including the \
-      'Warframe' game cinematic at Digital Extremes. Pioneered and adapted in-house non-linear mocap \
-      animation workflows using Maya's TimeEditor, coupled with custom in-house rigs. Demonstrated \
-      expertise in enhancing visual narratives and streamlining processes through innovative approaches.",
-  },
+  // {
+  //   id: 2,
+  //   img: imgDigic,
+  //   alt: "DIGIC Pictures logo.",
+  //   position: "Technical Previs Director",
+  //   company: "DIGIC Pictures · Full-time",
+  //   time: "Dec 2018 - Mar 2019 · 4 months",
+  //   location: "Budapest, Hungary, On-site",
+  //   description: "Experienced Previs Artist and Technical Director, contributing to successful projects including the \
+  //     'Warframe' game cinematic at Digital Extremes. Pioneered and adapted in-house non-linear mocap \
+  //     animation workflows using Maya's TimeEditor, coupled with custom in-house rigs. Demonstrated \
+  //     expertise in enhancing visual narratives and streamlining processes through innovative approaches.",
+  // },
   {
     id: 1,
     img: imgCdp,
@@ -205,6 +205,16 @@ const educationEntires = [
 
 
 const licCertEntries = [
+  {
+    id: 6,
+    img: imgUdemy,
+    alt: "Udemy",
+    name: "The Complete 2024 Web Development Bootcamp",
+    company: "Udemy",
+    time: "Issued Mar 2024",
+    url: "https://www.udemy.com/certificate/UC-8311a34a-3d5f-4d9d-879e-28fbe1031796/",
+    credentials: "UC-8311a34a-3d5f-4d9d-879e-28fbe1031796",
+  },
   {
     id: 5,
     img: imgAcg,

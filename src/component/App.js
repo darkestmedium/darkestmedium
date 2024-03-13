@@ -1,12 +1,11 @@
-// import React, { useState } from 'react';
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // Components
 import Nav from './Navbar';
-import Home from "./pages/Home"
-import Resume from "./pages/Resume"
 import Footer from "./Footer"
+import Home from "./page/Home"
+import Resume from "./page/Resume"
 
 
 function App() {
