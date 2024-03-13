@@ -1,0 +1,8 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+	<title>square</title>
+	<style>
+		.s0 { fill: #000000 } 
+	</style>
+	<path id="Shape 1" class="s0" d="m200 400h-200v-200"/>
+	<path id="Layer 1" fill-rule="evenodd" class="s0" d="m0 0h400v400l-100-100v-200h-200z"/>
+</svg>
