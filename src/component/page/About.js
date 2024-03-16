@@ -1,7 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import './About.css';
 
-import imgAvatar from '../assets/images/me.png';
+import imgAvatar from '../../assets/images/me.png';
 
 
 
@@ -17,16 +18,19 @@ function About() {
 
 
   return (
-    <div className="sec-about-me">
-      <div className="sec-about-me-grid">
-        <div>
-          <img src={imgAvatar} alt="Blurred out my self."></img>
-        </div>
-        <div>
+    <div className="sec-about">
+      <div className="sec-about-grid">
+        <div class="grid-item item1">
           <h1>“You can't control something you don't understand”</h1>
+        </div>
+        <div></div>
+        <div>
           <h4 className="ibm-plex-sans-semibold">- ME.</h4>
         </div>
-        <div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="grid-item item2">
           <p className="body-02">
             Coding, problem-solving, and tackling new challenges have always been my form of meditation. 
             From a young age, I've been captivated by technology and hardware, constantly exploring 
@@ -35,12 +39,7 @@ function About() {
           </p>
         </div>
         <div>
-          <button onClick={handleClick}>
-            RESUME
-            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-              <path fillRule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
-            </svg>
-          </button>
+          <img src={imgAvatar} alt="Blurred out my self."></img>
         </div>
       </div>
     </div>

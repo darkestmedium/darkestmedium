@@ -1,4 +1,5 @@
 import React from 'react';
+import './Contact.css';
 
 
 
@@ -12,17 +13,14 @@ function Contact() {
   return (
     <div className="sec-contact">
       <div className="sec-contact-grid">
-        <div>
+        <div class="grid-item contact-item1">
           <h1>Want to get in touch?</h1>
         </div>
+        <div className='sec-contact-grad grid-item contact-item2'></div>
         <div></div>
         <div></div>
         <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div>
+        <div class="grid-item contact-item3">
           <button onClick={handleClick}>
             CONTACT ME
             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">

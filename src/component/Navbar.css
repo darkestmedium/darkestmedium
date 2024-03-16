@@ -5,8 +5,8 @@
 .navbar {
   background-color: black;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 10px 10px;
+  grid-template-columns: auto auto 1fr;
+  padding: 1rem 1rem;
 }
 
 
@@ -16,12 +16,8 @@
 
 .navbar ul a {
   color: var(--grey30);
-  margin-top: auto;
-  margin-bottom: auto;
-
   padding: 0;
   margin: 0;
-
   font-weight: 400;
   font-style: normal;
   font-size: 1.25rem;
@@ -30,19 +26,32 @@
   margin-right: 20px;
 }
 .navbar ul a:last-child {
-  margin-right: 10px;
+  margin-right: 0px;
 }
 .navbar ul a:hover {
   color: var(--grey10);
 }
 
+.navbar a {
+  color: var(--grey30);
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  letter-spacing: 0px;
+  margin-right: 20px;
+}
+.navbar a:hover {
+  color: var(--grey10);
+}
+
 
 .navbar img {
-  width: 32px;
+  width: 28px;
   height: auto;
   display: block;
-  /* margin-left: 0; */
-  /* margin-right: auto; */
   filter: invert(70%);
 }
 .navbar img:hover {

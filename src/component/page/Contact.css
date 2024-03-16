@@ -1,0 +1,50 @@
+@import url('../../style/color.css');
+@import url('../../style/typo.css');
+
+
+
+
+/* Section Contact */
+.sec-contact {
+  margin: 4rem 0rem;
+  text-align: left;
+}
+
+.sec-contact-grad {
+  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+  background: linear-gradient(-45deg, #272525, #262626, #161616, #21272a);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  border-radius: 1rem;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.sec-contact-grid {
+  height: 28rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr 0.25fr;
+  gap: 1rem;
+  padding: 0rem 1rem;
+}
+
+.contact-item1 {
+  grid-column: span 2;
+}
+.contact-item2 {
+  grid-column: span 2;
+  grid-row: span 3;
+}
+.contact-item3 {
+  text-align: right;
+}

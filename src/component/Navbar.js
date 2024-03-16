@@ -12,8 +12,10 @@ function Navbar() {
   return (
     <nav className="navbar">
       <Link to="/"><img className="svg-img" src={svgLogo} alt="Logo" /></Link>
+      <Link to="/">DARKEST MEDIUM</Link>
       <ul>
-        <Link to="/resume">Resume</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
       </ul>
     </nav>
   );

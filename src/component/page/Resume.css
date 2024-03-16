@@ -1,0 +1,106 @@
+@import url('../../style/color.css');
+@import url('../../style/typo.css');
+
+
+
+
+/* Section Resume */
+.sec-resume {
+  position: relative;
+  margin: 4rem 1rem;
+}
+
+
+
+/* Section Info */
+.sec-info {
+  position: relative;
+  margin-bottom: 4rem;
+}
+.sec-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.sec-info h1 {
+  margin-bottom: 4rem;
+}
+
+
+/* Section Experience */
+.sec-experience {
+  position: relative;
+  margin-bottom: 4rem;
+}
+.sec-experience h5 {
+  margin-bottom: 2rem;
+}
+
+
+/* Section Education */
+.sec-education {
+  position: relative;
+  margin-bottom: 4rem;
+}
+.sec-education h5 {
+  margin-bottom: 2rem;
+}
+
+
+/* Section Licenses & Certifications */
+.sec-lic-cert {
+  position: relative;
+  margin-bottom: 4rem;
+}
+.sec-lic-cert h5 {
+  margin-bottom: 2rem;
+}
+
+
+/* Section Skills */
+.sec-skills {
+  position: relative;
+  margin-bottom: 4rem;
+}
+.sec-skills h5 {
+  margin-bottom: 2rem;
+}
+.sec-skills-grid {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+}
+/* Media query for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+  .sec-skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.skill-item-grid {
+  text-align: left;
+  display: grid;
+  grid-template-columns: 32px 2fr;
+  grid-template-rows: 1fr;
+  gap: 1rem;
+  vertical-align: middle;
+}
+.skill-item-grid .svg-invert {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.skill-item-grid p {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

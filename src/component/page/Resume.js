@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import './Resume.css';
 
 // Components
-// import Entry from '../Entry';
 import EntrySkill from '../EntrySkill';
 import EntryLink from '../EntryLink';
 import EntryWork from '../EntryWork';
@@ -16,8 +16,8 @@ import {workEntries, licCertEntries, skillEntries} from "../../data/ResumeEntrie
 
 
 
-
 function Resume() {
+
 
   return (
     <div className='sec-resume'>
@@ -28,8 +28,6 @@ function Resume() {
           <div>+48 781 444 202</div>
           <div><a href="https://github.com/darkestmedium">github.com/darkestmedium</a></div>
           <div><a href="https://darkestmedium.github.io/darkestmedium/">darkestmedium.github.io</a></div>
-          {/* <div><Link to="https://github.com/darkestmedium">github.com/darkestmedium</Link></div>
-          <div><Link to="https://darkestmedium.github.io/darkestmedium/">github.com/darkestmedium</Link></div> */}
         </div>
         <p>As an Accomplished Technical Animation Director, I have a solid history of success in leading
           projects across Commercials, Films, and Games. Proficient in Maya, Python, and C++, 
