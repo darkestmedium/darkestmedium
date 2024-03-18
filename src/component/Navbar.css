@@ -15,6 +15,7 @@
 }
 
 .navbar ul a {
+  position: relative;
   color: var(--grey30);
   padding: 0;
   margin: 0;
@@ -31,6 +32,25 @@
 .navbar ul a:hover {
   color: var(--grey10);
 }
+
+.navbar ul a::after {
+  content: '';
+  display: block;
+  width: 0%;
+  height: 1px;
+  background-color: var(--grey40); /* Color of the underline */
+  position: absolute;
+  bottom: -2px; /* Position the underline just below the text */
+  left: 0;
+  transition: width 0.3s ease;
+}
+.navbar ul a:hover::after {
+  background-color: var(--cyan50);
+  width: 100%;
+}
+
+
+
 
 .navbar a {
   color: var(--grey30);
@@ -53,6 +73,7 @@
   height: auto;
   display: block;
   filter: invert(70%);
+  transition: filter 0.3s;
 }
 .navbar img:hover {
   filter: invert(90%);

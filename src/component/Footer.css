@@ -18,6 +18,7 @@
   height: auto;
   display: block;
   filter: invert(70%);
+  transition: filter 0.3s;
 }
 .footer ul img:hover {
   filter: invert(90%);

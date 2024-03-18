@@ -23,6 +23,7 @@ function Home() {
 
   return (
     <div className='sec-main'>
+      
       <div className="sec-home dot-grid">
         {/* <img src={seqBlackHole} alt="Animated sequence of a black hole"></img> */}
         <img

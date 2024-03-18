@@ -19,7 +19,7 @@ function Contact() {
         <div className='sec-contact-grad grid-item contact-item2'></div>
         <div></div>
         <div></div>
-        <div></div>
+        {/* <div></div> */}
         <div class="grid-item contact-item3">
           <button onClick={handleClick}>
             CONTACT ME
