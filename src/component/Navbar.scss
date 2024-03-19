@@ -1,0 +1,93 @@
+@import '../style/color.scss';
+@import '../style/typo.scss';
+
+
+.navbar {
+  background-color: black;
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  padding: 1rem 1rem;
+
+  a {
+    color: var(--grey30);
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    letter-spacing: 0px;
+    margin-right: 20px;
+    &:hover {
+      color: var(--grey10);
+    }
+  }
+
+  ul {
+    text-align: right;
+
+    a {
+      position: relative;
+      color: var(--grey30);
+      padding: 0;
+      margin: 0;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+      letter-spacing: 0px;
+      margin-right: 20px;
+      &:last-child {
+        margin-right: 0px;
+      }
+      &:hover {
+        color: var(--grey10);
+        &::after {
+          background-color: var(--cyan50);
+          width: 100%;
+        }
+      }
+      &::after {
+        content: '';
+        display: block;
+        width: 0%;
+        height: 1px;
+        background-color: var(--grey40); /* Color of the underline */
+        position: absolute;
+        bottom: -2px; /* Position the underline just below the text */
+        left: 0;
+        transition: width 0.3s ease;
+      }
+    }
+  }
+
+  img {
+    width: 28px;
+    height: auto;
+    display: block;
+    filter: invert(70%);
+    transition: filter 0.3s;
+    &:hover {
+      filter: invert(90%);
+    }
+  }
+
+}
+
+
+/* Media query for responsiveness */
+/* @media (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar li {
+    margin: 10px 0;
+  }
+} */

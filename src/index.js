@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom/client';
 import App from "./component/App"
 
 // Styles
-import './style/index.css';
+import './style/index.scss';
 
 
 

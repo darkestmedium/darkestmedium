@@ -1,6 +1,6 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
-import './Resume.css';
+import './Resume.scss';
 
 // Components
 import EntrySkill from '../EntrySkill';

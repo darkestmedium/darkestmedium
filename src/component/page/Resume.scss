@@ -1,5 +1,5 @@
-@import url('../../style/color.css');
-@import url('../../style/typo.css');
+@import '../../style/color.scss';
+@import '../../style/typo.scss';
 
 
 
@@ -16,7 +16,12 @@
 .sec-info {
   position: relative;
   margin-bottom: 4rem;
+
+  h1 {
+    margin-bottom: 4rem;
+  }
 }
+
 .sec-info-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -24,18 +29,17 @@
   gap: 1rem;
   margin-bottom: 2rem;
 }
-.sec-info h1 {
-  margin-bottom: 4rem;
-}
+
 
 
 /* Section Experience */
 .sec-experience {
   position: relative;
   margin-bottom: 4rem;
-}
-.sec-experience h5 {
-  margin-bottom: 2rem;
+  
+  h5 {
+    margin-bottom: 2rem;
+  }
 }
 
 
@@ -43,9 +47,10 @@
 .sec-education {
   position: relative;
   margin-bottom: 4rem;
-}
-.sec-education h5 {
-  margin-bottom: 2rem;
+
+  h5 {
+    margin-bottom: 2rem;
+  }
 }
 
 
@@ -53,9 +58,10 @@
 .sec-lic-cert {
   position: relative;
   margin-bottom: 4rem;
-}
-.sec-lic-cert h5 {
-  margin-bottom: 2rem;
+
+  h5 {
+    margin-bottom: 2rem;
+  }
 }
 
 
@@ -63,23 +69,27 @@
 .sec-skills {
   position: relative;
   margin-bottom: 4rem;
+
+  h5 {
+    margin-bottom: 2rem;
+  }
 }
-.sec-skills h5 {
-  margin-bottom: 2rem;
-}
+
 .sec-skills-grid {
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 20px;
+
 }
 /* Media query for screens smaller than 600px */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 40rem) {
   .sec-skills-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 .skill-item-grid {
   text-align: left;
   display: grid;
@@ -87,20 +97,22 @@
   grid-template-rows: 1fr;
   gap: 1rem;
   vertical-align: middle;
+
+  p {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  img {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
-.skill-item-grid .svg-invert {
-  width: 100%;
-  height: auto;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.skill-item-grid p {
-  display: flex;
-  align-items: center;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+

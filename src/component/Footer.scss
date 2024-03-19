@@ -1,0 +1,38 @@
+@import '../style/color.scss';
+@import '../style/typo.scss';
+
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem 1rem;
+
+  p {
+    color: var(--grey30);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+
+    img {
+      width: 1.5rem;
+      height: auto;
+      display: block;
+      filter: invert(70%);
+      transition: filter 0.3s;
+
+      &:hover {
+        filter: invert(90%);
+      }
+    }
+  }
+
+}
+
+
+

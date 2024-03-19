@@ -1,27 +1,19 @@
-@import url('color.css');
-@import url('typo.css');
+@import 'color.scss';
+@import 'typo.scss';
 
 
 
 
 /* Reset some default browser styles */
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-li,
-a {
+* {
   margin: 0;
   padding: 0;
-  border: none;
-  font-family: "IBM Plex Sans", sans-serif;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
 
 
 
@@ -265,3 +257,4 @@ a {
 .svg-greyscale {
   filter: grayscale(100%);
 }
+

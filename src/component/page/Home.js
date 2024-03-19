@@ -1,6 +1,6 @@
 // import React from 'react';
 import { React, useState } from 'react';
-import './Home.css';
+import './Home.scss';
 
 // Components
 
@@ -23,7 +23,6 @@ function Home() {
 
   return (
     <div className='sec-main'>
-      
       <div className="sec-home dot-grid">
         {/* <img src={seqBlackHole} alt="Animated sequence of a black hole"></img> */}
         <img

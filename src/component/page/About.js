@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './About.css';
+import './About.scss';
 
 import imgAvatar from '../../assets/images/me.png';
 
@@ -20,17 +20,17 @@ function About() {
   return (
     <div className="sec-about">
       <div className="sec-about-grid">
-        <div class="grid-item item1">
+        <div class="item1">
           <h1>“You can't control something you don't understand”</h1>
         </div>
-        <div></div>
+        <div><img src={imgAvatar} alt="Blurred out my self."></img></div>
         <div>
           <h4 className="ibm-plex-sans-semibold">- ME.</h4>
         </div>
         <div></div>
         <div></div>
         <div></div>
-        <div class="grid-item item2">
+        <div class="item2">
           <p className="body-02">
             Coding, problem-solving, and tackling new challenges have always been my form of meditation. 
             From a young age, I've been captivated by technology and hardware, constantly exploring 
@@ -39,7 +39,7 @@ function About() {
           </p>
         </div>
         <div>
-          <img src={imgAvatar} alt="Blurred out my self."></img>
+          {/* <img src={imgAvatar} alt="Blurred out my self."></img> */}
         </div>
       </div>
     </div>
