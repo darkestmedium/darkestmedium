@@ -5,10 +5,11 @@ import { HashRouter, Routes, Route } from 'react-router-dom';
 import Nav from './Navbar';
 import Footer from "./Footer"
 // Pages
-import Home from './page/Home'
-import About from './page/About';
-import Contact from './page/Contact';
-import Resume from './page/Resume'
+import Home from './pages/Home'
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Resume from './pages/resume/Resume'
+import Thought from './pages/thought/Thought';
 
 
 
@@ -22,6 +23,7 @@ function App() {
         <div className='content'>
           <Routes>
             <Route exact path="/" element={<Home />} />
+            <Route path="/thought" element={<Thought />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/resume" element={<Resume />} />

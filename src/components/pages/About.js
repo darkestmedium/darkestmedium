@@ -20,7 +20,7 @@ function About() {
   return (
     <div className="sec-about">
       <div className="sec-about-grid">
-        <div class="item1">
+        <div className="item1">
           <h1>“You can't control something you don't understand”</h1>
         </div>
         <div><img src={imgAvatar} alt="Blurred out my self."></img></div>
@@ -30,7 +30,7 @@ function About() {
         <div></div>
         <div></div>
         <div></div>
-        <div class="item2">
+        <div className="item2">
           <p className="body-02">
             Coding, problem-solving, and tackling new challenges have always been my form of meditation. 
             From a young age, I've been captivated by technology and hardware, constantly exploring 

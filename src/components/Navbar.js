@@ -14,6 +14,7 @@ function Navbar() {
       <Link to="/"><img className="svg-img" src={svgLogo} alt="Logo" /></Link>
       <Link to="/">DARKEST MEDIUM</Link>
       <ul>
+        <Link to="/thought">Thought</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
       </ul>
