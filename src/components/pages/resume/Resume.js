@@ -24,10 +24,12 @@ function Resume() {
       <div className="sec-info">
         <h1>Lukasz Biernat</h1>
         <div className="sec-info-grid">
-          <div>darkestmedium@pm.me</div>
-          <div>+48 781 444 202</div>
+          <div><a href="https://www.linkedin.com/in/darkestmedium/">linkedin.com/darkestmedium</a></div>
+          <div><a href="https://drive.google.com/file/d/1gM1M-uwErSg1HGPiSXX4xdGTa7lmZ1De/view?usp=drive_link">lukas-biernat-tech-reel-2023</a></div>
           <div><a href="https://github.com/darkestmedium">github.com/darkestmedium</a></div>
           <div><a href="https://darkestmedium.github.io/darkestmedium/">darkestmedium.github.io</a></div>
+          <div>darkestmedium@gmail.com</div>
+          <div>+48 781 444 201</div>
         </div>
         <p>As an Accomplished Technical Animation Director, I have a solid history of success in leading
           projects across Commercials, Films, and Games. Proficient in Maya, Python, and C++, 

@@ -1,4 +1,5 @@
 // Studio Logo
+import imgNm from '../assets/images/studio/nm.jpg'
 import imgDm from '../assets/images/studio/dm.png'
 import imgBambaa from '../assets/images/studio/bambaa.png'
 import imgBlur from '../assets/images/studio/blur.png'
@@ -47,18 +48,13 @@ import iconLinux from '../assets/icons/linux.svg'
 const workEntries = [
   {
     id: 8,
-    img: imgDm,
+    img: imgNm,
     alt: "Darkest Medium logo.",
-    position: "Web Developer",
-    company: "Darkest Medium · Full-time",
-    time: "Jan 2024 - Present",
-    location: "Outer Space, Remote",
-    description: "Currently, I'm immersed in learning the intricacies of web development and blockchain \
-      technology. With a thirst for knowledge and a drive to excel, I'm delving into the complexities \
-      of these fields, honing my skills in areas such as full-stack development, blockchain architecture, \
-      and decentralized applications. Excited about the endless possibilities they offer, I'm dedicated \
-      to mastering the latest tools and frameworks, paving the way to become a proficient and innovative \
-      developer in these rapidly evolving domains.",
+    position: "Software Developer",
+    company: "NoMachine · Full-time",
+    time: "Apr 2024 - Sep 2024 · 6 months",
+    location: "Poland, Remote",
+    description: "Low-level C/C++ programmer specializing in Vulkan development. Currently building a high-performance renderer with integrated video encoding and decoding capabilities.",
   },
   {
     id: 7,
