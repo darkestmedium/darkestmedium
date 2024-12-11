@@ -7,7 +7,7 @@ import './Contact.scss';
 function Contact() {
 
   const handleClick = () => {
-    window.location.href = "mailto:darkestmedium@pm.me";
+    window.location.href = "mailto:darkestmedium@gmail.com";
   };
 
   return (
